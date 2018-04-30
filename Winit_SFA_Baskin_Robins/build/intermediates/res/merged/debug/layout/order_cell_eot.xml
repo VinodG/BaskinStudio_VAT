@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="42dip"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvOrderedItemName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:singleLine="true"
+            android:textColor="@color/header_color"
+            android:textSize="14dip" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/etOrderedCases"
+            android:layout_width="50dip"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:clickable="false"
+            android:editable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="00"
+            android:textColor="@color/header_color"
+            android:textSize="14dip" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/etOrderedQuantity"
+            android:layout_width="50dip"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:clickable="false"
+            android:editable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="00"
+            android:textColor="#454545"
+            android:textSize="14dip" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dip"
+        android:layout_marginTop="5dip" >
+
+        <TextView
+            android:id="@+id/tvOrderedItemDescTitle"
+            android:layout_width="65dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:orientation="vertical"
+            android:singleLine="true"
+            android:text="@string/Description"
+            android:textColor="@color/list_title"
+            android:textSize="12dip" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvOrderedItemDesc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:singleLine="true"
+            android:textColor="@color/list_title"
+            android:textSize="12dip" >
+        </TextView>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/dot_seperator" />
+
+</LinearLayout>

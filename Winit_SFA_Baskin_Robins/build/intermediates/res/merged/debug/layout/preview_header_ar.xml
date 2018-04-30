@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/previewtop"
+        android:orientation="horizontal"
+        android:padding="6dip" >
+
+          <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="10dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingTop="5dip" >
+
+            <TextView
+                android:id="@+id/tvMasafiLogoTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:text="@string/baskin_robbin_title_ar"
+                android:textColor="@color/black"
+                android:textSize="16dip" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="5dip"
+                android:text="@string/baskin_robbin_address_ar"
+                android:textColor="@color/black"
+                android:textSize="9dip" >
+            </TextView>
+        </LinearLayout>
+         <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_weight="1" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dip"
+            android:background="@drawable/previewlogo" />
+
+       
+
+      
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llHeaderWithTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/smallbg"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tvOrderPreviewItemName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="9dip"
+            android:text="@string/item_desc_ar"
+            android:textColor="@color/white"
+            android:textSize="9dip" />
+
+        <TextView
+            android:id="@+id/tvOrderPreviewCases"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:text="UOM"
+            android:textColor="@color/white"
+            android:textSize="9dip" />
+
+        <TextView
+            android:id="@+id/tvOrderPreviewunits"
+            android:layout_width="@dimen/width_cases"
+            android:layout_height="wrap_content"
+            android:text="@string/qty_ar"
+            android:textColor="@color/white"
+            android:textSize="9dip" />
+
+        <TextView
+            android:id="@+id/tvDiscount"
+            android:layout_width="@dimen/width_cases"
+            android:layout_height="wrap_content"
+            android:text="@string/disc_ar"
+            android:textColor="@color/white"
+            android:textSize="9dip" />
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="@dimen/width_total_pr"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/price_ar"
+            android:textColor="@color/white"
+            android:textSize="9dip" />
+
+        <TextView
+            android:id="@+id/tvTotalPrice"
+            android:layout_width="@dimen/width_total_pr1"
+            android:layout_height="wrap_content"
+            android:text="@string/total_price_ar"
+            android:textColor="@color/white"
+            android:textSize="9dip" />
+
+        <TextView
+            android:id="@+id/tvInvoiceAmount"
+            android:layout_width="@dimen/width_total_pr2"
+            android:layout_height="wrap_content"
+            android:text="@string/invoice_price_ar"
+            android:textColor="@color/white"
+            android:textSize="9dip" />
+    </LinearLayout>
+     
+</LinearLayout>

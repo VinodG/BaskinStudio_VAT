@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popmid"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/rlItemCell"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" 
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/ivDownloadPlanogramIcons"
+            android:layout_width="50dip"
+            android:visibility="gone"
+            android:layout_height="50dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="5dip"
+          />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="5dip"
+            android:gravity="top|left"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvLocationTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="15dip"
+                android:textColor="@color/list_title"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvLocationAddressLine1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="PO Box - 4048, Abu Dubai, UAE"
+                android:maxLines="2"
+                android:textColor="@color/list_middle"
+                android:textSize="12dip" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivArowRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:layout_weight="0"
+            android:src="@drawable/arro" />
+    </LinearLayout>
+
+</LinearLayout>

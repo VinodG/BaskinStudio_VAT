@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    >
+
+    <LinearLayout
+        android:id="@+id/ll_invoiceDetails"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/smallbg"
+        android:gravity="center_vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvUnPaidInvoice"
+            android:layout_width="115dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:gravity="center_vertical"
+            android:text="Invoice Number"
+            android:textColor="@color/white"
+            android:textSize="16dip" />
+
+        <TextView
+            android:layout_width="95dip"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Invoice Type"
+            android:textColor="@color/white"
+            android:textSize="16dip" />
+
+        <TextView
+            android:id="@+id/tvAmountDueInvoice"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="5dip"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:text="Amount (AED)"
+            android:textColor="@color/white"
+            android:textSize="16dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llInvoiceNumbers"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/dot_seperator" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="25dip"
+        android:gravity="center_vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvTotalAmountText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Amount due"
+            android:textColor="@color/list_middle" />
+
+        <TextView
+            android:id="@+id/tvTotalAmountValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:text="AED 100"
+            android:textColor="@color/list_middle" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvPayment_Details"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:layout_gravity="center"
+        android:background="@drawable/smallbg"
+        android:paddingLeft="10dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="Payment Details"
+        android:textColor="@color/white"
+        android:textSize="16dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip" >
+
+            <TextView
+                android:id="@+id/tvSelectRmn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="5dip"
+                android:text="Receipt Method Name"
+                android:textColor="@color/list_middle"
+                android:textSize="14dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSelectRmnV"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1.1"
+                android:background="@drawable/spinner_disabled_holo_light"
+                android:gravity="center_vertical"
+                android:hint="Select Receipt Method Name"
+                android:paddingLeft="5dip"
+                android:paddingRight="28dip"
+                android:singleLine="true"
+                android:textColor="@color/list_middle"
+                android:textSize="14dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPDrawn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tvPDrawn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:text="P Drawn On Bank"
+                android:textColor="@color/list_middle"
+                android:textSize="14dip" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:text="AED"
+                android:textColor="@color/list_middle"
+                android:textSize="14dip"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/etPdrawn"
+                android:layout_width="fill_parent"
+                android:layout_height="25dip"
+                android:layout_weight=".7"
+                android:background="@drawable/input_new"
+                android:enabled="false"
+                android:focusable="false"
+                android:gravity="center_vertical|left"
+                android:hint="Enter amount"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:paddingLeft="5dip"
+                android:singleLine="true"
+                android:textColor="@color/list_middle"
+                android:textSize="14dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip" >
+
+            <TextView
+                android:id="@+id/tvModePayment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:paddingLeft="5dip"
+                android:text="Mode of Payment"
+                android:textColor="@color/list_middle"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tvCash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:drawableLeft="@drawable/checked1"
+                    android:gravity="center"
+                    android:padding="5dip"
+                    android:text="   Cash"
+                    android:textColor="@color/list_middle"
+                    android:textSize="18dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvCheque"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:drawableLeft="@drawable/unchecked1"
+                    android:gravity="center"
+                    android:padding="5dip"
+                    android:text="  Cheque"
+                    android:textColor="@color/list_middle"
+                    android:textSize="18dip"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llCash"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip" >
+
+                    <TextView
+                        android:id="@+id/tvCashDateTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="5dip"
+                        android:text="Date"
+                        android:textColor="@color/list_middle"
+                        android:textSize="14dip"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvCashSelect"
+                        android:layout_width="fill_parent"
+                        android:layout_height="25dip"
+                        android:layout_marginRight="5dip"
+                        android:layout_weight="1.1"
+                        android:gravity="center_vertical"
+                        android:hint="Select date"
+                        android:paddingLeft="5dip"
+                        android:paddingRight="3dip"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/list_middle"
+                        android:textSize="14dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tvCashSelAmount"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".8"
+                        android:imeOptions="actionNext"
+                        android:singleLine="true"
+                        android:text="Total Invoice Amt"
+                        android:textColor="@color/list_middle"
+                        android:textSize="14dip" />
+
+                    <TextView
+                        android:id="@+id/tvCashSelCurrencyType"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:imeOptions="actionNext"
+                        android:singleLine="true"
+                        android:text="AED"
+                        android:textColor="@color/list_middle"
+                        android:textSize="14dip" />
+
+                    <TextView
+                        android:id="@+id/tvMinusCash"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="actionNext"
+                        android:singleLine="true"
+                        android:text="-"
+                        android:textColor="@color/black"
+                        android:textSize="14dip"
+                        android:visibility="gone" />
+
+                    <EditText
+                        android:id="@+id/etCashAmount"
+                        android:layout_width="fill_parent"
+                        android:layout_height="25dip"
+                        android:layout_weight=".7"
+                        android:background="@drawable/input_new"
+                        android:gravity="center_vertical|left"
+                        android:hint="Enter amount"
+                        android:imeOptions="actionDone"
+                        android:inputType="numberDecimal"
+                        android:paddingLeft="5dip"
+                        android:singleLine="true"
+                        android:textColor="@color/list_middle"
+                        android:textSize="14dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--
+             <TextView
+            android:id="@+id/tvCheque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/unchecked1"
+            android:gravity="center"
+            android:padding="5dip"
+            android:text="  Cheque"
+            android:textColor="@color/list_middle"
+            android:textSize="18dip"
+            android:textStyle="bold" />
+        -->
+
+        <LinearLayout
+            android:id="@+id/llCheque"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:id="@+id/llCheque_Details"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip" >
+
+                <TextView
+                    android:id="@+id/tvChequeNumber"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="5dip"
+                    android:text="Cheque Number"
+                    android:textColor="@color/list_middle"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etCheque_Details"
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_weight="1.1"
+                    android:background="@drawable/input_new"
+                    android:hint="Enter cheque number"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:paddingLeft="5dip"
+                    android:singleLine="true"
+                    android:textColor="@color/list_middle"
+                    android:textSize="14dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip" >
+
+                <TextView
+                    android:id="@+id/tvBankName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="5dip"
+                    android:text="Bank Name"
+                    android:textColor="@color/list_middle"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvSelectBanks"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dip"
+                    android:layout_weight="1.1"
+                    android:background="@drawable/spinner_disabled_holo_light"
+                    android:gravity="center_vertical"
+                    android:hint="Select bank name"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="28dip"
+                    android:singleLine="true"
+                    android:textColor="@color/list_middle"
+                    android:textSize="14dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llBankName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="10dip"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tvEnterBankName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="5dip"
+                    android:text="Enter Bank Name"
+                    android:textColor="@color/list_middle"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etBankName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_weight="1.1"
+                    android:background="@drawable/input_new"
+                    android:gravity="center_vertical|left"
+                    android:hint="Enter bank name"
+                    android:imeOptions="actionDone"
+                    android:paddingLeft="5dip"
+                    android:singleLine="true"
+                    android:textColor="@color/list_middle"
+                    android:textSize="14dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip" >
+
+                <TextView
+                    android:id="@+id/tvDateTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="5dip"
+                    android:text="Maturity Date"
+                    android:textColor="@color/list_middle"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvDateSelect"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dip"
+                    android:layout_weight="1.1"
+                    android:background="@drawable/spinner_disabled_holo_light"
+                    android:gravity="center_vertical"
+                    android:hint="Select date"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="3dip"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/list_middle"
+                    android:textSize="14dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="10dip"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tvSelAmount"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".8"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:text="Amount"
+                    android:textColor="@color/list_middle"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:id="@+id/tvSelCurrencyType"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:text="AED"
+                    android:textColor="@color/list_middle"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:id="@+id/tvMinusCheck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:text="-"
+                    android:textColor="@color/black"
+                    android:textSize="14dip"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/etChequeAmount"
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dip"
+                    android:layout_weight=".7"
+                    android:background="@drawable/input_new"
+                    android:gravity="center_vertical|left"
+                    android:hint="Enter amount"
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="5dip"
+                    android:singleLine="true"
+                    android:textColor="@color/list_middle"
+                    android:textSize="14dip" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/dot_seperator" />
+
+        <LinearLayout
+            android:id="@+id/llRemainingAmount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tvRemaining"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:text="Remaining Amount"
+                android:textColor="@color/list_middle"
+                android:textSize="14dip" />
+
+            <TextView
+                android:id="@+id/tvRemainingAED"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:text="AED"
+                android:textColor="@color/list_middle"
+                android:textSize="14dip" />
+
+            <EditText
+                android:id="@+id/etRemainingAmount"
+                android:layout_width="fill_parent"
+                android:layout_height="25dip"
+                android:layout_weight=".7"
+                android:background="@drawable/input_new"
+                android:enabled="false"
+                android:focusable="false"
+                android:gravity="center_vertical|left"
+                android:hint="Enter amount"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:paddingLeft="5dip"
+                android:singleLine="true"
+                android:textColor="@color/list_middle"
+                android:textSize="14dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvAmount"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:text="Amount"
+                android:textColor="@color/list_middle"
+                android:textSize="14dip" />
+
+            <TextView
+                android:id="@+id/tvCurrencyType"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:text="AED"
+                android:textColor="@color/list_middle"
+                android:textSize="14dip" />
+
+            <EditText
+                android:id="@+id/ettvAmount"
+                android:layout_width="fill_parent"
+                android:layout_height="25dip"
+                android:layout_weight=".7"
+                android:background="@drawable/input_new"
+                android:gravity="center_vertical|left"
+                android:hint="Enter amount"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"
+                android:paddingLeft="5dip"
+                android:singleLine="true"
+                android:textColor="@color/list_middle"
+                android:textSize="14dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCustomer_Signature"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_weight="0"
+        android:orientation="vertical"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tvSignatureTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="5dip"
+                android:text="Customer Signature"
+                android:textColor="@color/list_middle"
+                android:textSize="14dip"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnPaymentSignClear"
+                android:layout_width="60dip"
+                android:layout_height="25dip"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/empty_rounded_button_click"
+                android:gravity="center"
+                android:text="@string/Clear"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llCustomerSignature"
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="3dip"
+            android:background="@drawable/background"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

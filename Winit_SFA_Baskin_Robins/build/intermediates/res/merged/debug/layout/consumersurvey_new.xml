@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_instore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center|left"
+        android:padding="10dp"
+        android:text="In Store - Consumer Behaviour Survey"
+        android:textColor="#32578D"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/divider_3" />
+
+    <ListView
+        android:id="@+id/lvServeyQue"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:cacheColorHint="@color/transparent"
+        android:listSelector="@color/transparent"
+        android:layout_height="0dp"
+        android:scrollbars="none"
+        android:descendantFocusability="afterDescendants"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/basefooter"
+        android:gravity="right" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/sep_new" />
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent_color"
+            android:drawableLeft="@drawable/selection"
+            android:drawablePadding="5dp"
+            android:text="Submit "
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

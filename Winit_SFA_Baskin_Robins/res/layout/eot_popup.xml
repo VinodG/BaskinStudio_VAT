@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="7dip"
+        android:layout_marginRight="7dip"
+        android:background="@drawable/roundcorner_new1"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/tvTitlePopup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:gravity="center"
+            android:text="head"
+            android:textColor="@color/list_title"
+            android:textSize="17dip"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etEnterValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/input_new"
+            android:hint="Enter Passcodes"
+            android:inputType="number"
+            android:paddingLeft="10dip"
+            android:maxLines="1"
+            android:textColor="@color/header_color"
+            android:textSize="13dip" />
+
+        <EditText
+            android:id="@+id/tvSelectReason"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/spinner_disabled_holo_light"
+            android:gravity="center_vertical"
+            android:hint="Select Reason"
+            android:paddingLeft="10dip"
+            android:textColor="@color/header_color"
+            android:textSize="13dip"/>
+
+        <EditText
+            android:id="@+id/etEnterReason"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"
+            android:background="@drawable/input_new"
+            android:hint="Enter Reason"
+            android:paddingLeft="10dip"
+            android:maxLines="1"
+            android:textColor="@color/header_color"
+            android:textSize="13dip" />
+        
+        <EditText
+            android:id="@+id/etAmountdecimal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/input_new"
+            android:hint="Enter Reason"
+            android:paddingLeft="10dip"
+            android:maxLines="1"
+            android:visibility="gone"
+            android:inputType="numberDecimal"
+            android:textColor="@color/header_color"
+            android:textSize="13dip" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btnOkPopup"
+                android:layout_width="wrap_content"
+                android:layout_height="35dip"
+                android:background="@drawable/empty_rounded_button_click"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:text="@string/Submit"
+                android:textColor="@color/white"
+                android:textSize="18dip"
+                android:textStyle="bold" 
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

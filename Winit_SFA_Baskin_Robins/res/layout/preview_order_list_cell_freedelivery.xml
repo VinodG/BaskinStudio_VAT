@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingBottom="7dip"
+    android:paddingTop="7dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingRight="3dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvOrderedItemName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:orientation="vertical"
+                android:singleLine="true"
+                android:textColor="@color/header_color"
+                android:textSize="11dip" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvOrderedItemDesc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:orientation="vertical"
+                android:singleLine="true"
+                android:textColor="@color/list_title"
+                android:textSize="11dip" >
+            </TextView>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etOrderedCases"
+            android:layout_width="38dip"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:clickable="false"
+            android:editable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="00"
+            android:textColor="@color/header_color"
+            android:textSize="11dip" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/etOrderedQuantity"
+            android:layout_width="38dip"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:clickable="false"
+            android:editable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="00"
+            android:textColor="#454545"
+            android:textSize="11dip" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/etDiscount"
+            android:layout_width="38dip"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:clickable="false"
+            android:editable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="00"
+            android:textColor="#454545"
+            android:textSize="11dip" 
+            android:visibility="gone">
+        </EditText>
+
+        <EditText
+            android:id="@+id/etPrice"
+            android:layout_width="58dip"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:clickable="false"
+            android:editable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="00"
+            android:textColor="#454545"
+            android:textSize="11dip" 
+            android:visibility="gone">
+        </EditText>
+
+        <EditText
+            android:id="@+id/etTotalPrice"
+            android:layout_width="58dip"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:clickable="false"
+            android:editable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="00"
+            android:textColor="#454545"
+            android:textSize="11dip" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/etInvoiceAmount"
+            android:layout_width="58dip"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:clickable="false"
+            android:editable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="00"
+            android:textColor="#454545"
+            android:textSize="11dip" 
+            android:visibility="gone">
+        </EditText>
+    </LinearLayout>
+
+</LinearLayout>

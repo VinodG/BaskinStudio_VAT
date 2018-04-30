@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="7dip"
+        android:layout_marginRight="7dip"
+        android:background="@drawable/roundcorner_new1"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:gravity="center"
+            android:text="Round Off"
+            android:textColor="@color/list_title"
+            android:textSize="17dip"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1.5"
+                android:gravity="center_vertical"
+                android:text="Invoice Amount"
+                android:textColor="@color/list_title"
+                android:textSize="14dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvInvoiceAmt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/input_new"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingLeft="10dip"
+                android:textColor="@color/header_color"
+                android:textSize="13dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1.5"
+                android:gravity="center_vertical"
+                android:text="Round Off Value"
+                android:textColor="@color/list_title"
+                android:textSize="14dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSelectSymbol"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:layout_weight="2"
+                android:background="@drawable/input_new"
+                android:drawableRight="@drawable/arrow_2"
+                android:gravity="center"
+                android:hint="Symbol"
+                android:paddingLeft="5dip"
+                android:paddingRight="7dip"
+                android:textColor="@color/header_color"
+                android:textSize="12dip"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etEnterValue"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1.5"
+                android:background="@drawable/input_new"
+                android:gravity="center_vertical"
+                android:hint="Enter value"
+                android:inputType="numberDecimal"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:paddingLeft="10dip"
+                android:textColor="@color/header_color"
+                android:textSize="13dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1.5"
+                android:gravity="center_vertical"
+                android:text="Final invoice Amt"
+                android:textColor="@color/list_title"
+                android:textSize="14dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFinalInvoiceAmt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/input_new"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingLeft="10dip"
+                android:textColor="@color/header_color"
+                android:textSize="13dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="20dip"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="35dip"
+                android:background="@drawable/empty_rounded_button_click"
+                android:gravity="center"
+                android:text="@string/cancel"
+                android:textColor="@color/white"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnOkPopup"
+                android:layout_width="wrap_content"
+                android:layout_height="35dip"
+                android:layout_marginLeft="10dip"
+                android:background="@drawable/empty_rounded_button_click"
+                android:gravity="center"
+                android:text="@string/Submit"
+                android:textColor="@color/white"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!---->
+  <!--    -->
+  <string name="dev_conn_btn">Connect</string>
+  <string name="bt_disconn_msg">Disconnect</string>
+  <string name="bt_stop_search_btn">Stop</string>
+  <string name="dev_disconn_btn">Stop</string>
+  <string name="butter_pecan">BUTTER PECAN</string>
+  <string name="OnAccount">On Account</string>
+  <string name="print_msg">How do you want to Print?</string>
+  <string name="pending_invoice_exceed_error">Your credit limit has been exceeded, please modify order.</string>
+  <string name="bt_conn_msg">Search</string>
+  <string name="bt_conn_fail_msg">Unable to connect</string>
+  <string name="dev_check_msg">Search</string>
+  <string name="search_by_customer_code_or_name">Search by CustomerCode/Name</string>
+  <string name="no_activity">No Activity assigned to this customer. Contact your supervisor for further assistance.</string>
+  <string name="transaction_code">Transaction Code</string>
+  <string name="unload_qty">Unload\nQty</string>
+  <string name="return_">Good Condition</string>
+  <string name="capture_image">Capture Image</string>
+  <string name="capture_video">Capture Video</string>
+  <string name="record_audio">Record Audio</string>
+  <string name="approved">Approved</string>
+  <string name="pending">Pending</string>
+  <string name="pendingCaps">PENDING</string>
+  <string name="approvedCaps">APPROVED</string>
+  <string name="collectedCaps">COLLECTED</string>
+  <string name="rejectedCaps">REJECTED</string>
+  <string name="Below_Items">Below Items are not in Min-Max Range</string>
+  <string name="please_change">please change the quantities to continue.</string>
+  <string name="quantity_tiems">Following items quantity is more than van quantity</string>
+  <string name="deliveredCaps">DELIVERED</string>
+  <string name="processedCaps">PROCESSED</string>
+  <string name="Cash">Cash</string>
+  <string name="edit_item">Edit Item</string>
+  <string name="itemCode_decriptin">Item Code &amp; Description</string>
+  <string name="date_time_caps">DATE &amp; TIME</string>
+  <string name="request_has_been_processed">Request has been processed.</string>
+  <string name="request_has_been_failed_in_sap">Request has been failed in SAP.</string>
+  <string name="enter_warehouse_user_name">Warehouse Username</string>
+  <string name="enter_customer_asset_name">Customer Name</string>
+  <string name="Cheque">Cheque</string>
+  <string name="Cash1">Cash</string>
+  <string name="Add_Request">Add Request</string>
+  <string name="Settled_Amount">Settled Amount</string>
+  <string name="bt_search_btn">Search</string>
+
+
+    <!-- base.xml -->
+
+    <string name="Header_Name">Header Name</string>
+    <string name="Sort_By">Sort By</string>
+    <string name="Search_Map">Search Map</string>
+    <string name="Map_Key">0XtNuaSZd01YG7_5LCSxiasOTBj_iLjlwUfIRdg</string>
+    <string name="Map_Key_v2">AIzaSyDmInDHSC66TtIk_UJPq6HSpc84LGFTYKI</string>
+    <string name="hello">Hello World, CustomisedPresellerActivity!</string>
+    <string name="app_name">Baskin Robbins SFA</string>
+    <string name="version_code">10</string>
+    <string name="version">Baskin Robbins SFA® Version: 01.16.0216.1</string>
+    <string name="release_Date">Release Date : 24 APR 2018</string>  <!--Release Date : 30th Jan 2017-->
+    <string name="app_name_ver_live">BRSFA Live  3.9</string>
+  <string name="app_name_ver_test">BRSFA Test  3.9</string>
+    <string name="version_No">BRSFA 3.8</string>
+    <string name="release_date">23 APR 2018</string>
+    <!-- Login Screen -->
+    <string name="member">Member</string>
+    <string name="login">Login</string>
+    <string name="vehicle_code_hint">Enter SalesmanCode</string>
+    <string name="passcode_hint">Enter PassCode</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="username_hint">Username</string>
+    <string name="Memeber_Login">Memeber Login</string>
+    <string name="Password_hint">Password</string>
+    <string name="Passcode_hint">Passcode</string>
+    <string name="Remember_me">Remember me</string>
+    <string name="validating_please_wait">Validating. Please wait ...</string>
+    <string name="Capturing_please_wait">Capturing location. Please wait ...</string>
+    <!-- Dialog Buttons -->
+    <string name="itemcodenddesc">ItemCode &amp; Description</string>
+    <string name="OK">OK</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Submit">Submit</string>
+    <string name="check_out">Check Out</string>
+    <string name="cancel">Cancel</string>
+    <string name="Skip">Skip</string>
+    <string name="Customer_Code">Customer Code</string>
+    <string name="Address_Information">Address Information</string>
+    <string name="Post_Box_No">Post Box No</string>
+    <string name="Address1_Label">Street</string>
+    <string name="Address2_Label">Building</string>
+    <string name="Street_Building">Street/Building</string>
+    <string name="Contact_Person">Contact Person</string>
+    <string name="Payment_Type">Payment Type</string>
+    <string name="Emirates">Emirates</string>
+    <string name="Location">Location</string>
+    <string name="City">City</string>
+    <string name="Telephone">Telephone</string>
+    <string name="Email_ID">Email ID</string>
+    <string name="ItemInvoiceNum">Invoice Number</string>
+    <string name="Mandatory_documents">Mandatory documents :-</string>
+    <string name="Trade_license_copy">Trade license copy</string>
+    <string name="Owner_passport_copy">Owner passport copy</string>
+    <string name="Month_Bank_statement">3 Month Bank statement</string>
+    <string name="Registratio_Form">Registration Form</string>
+    <string name="Customer_Name">Customer Name: </string>
+    <string name="Fax_No">Fax No</string>
+    <string name="Site_Code">Site Code</string>
+    <string name="Contact_Person_and_phone">Contact Person Mobile Number</string>
+    <string name="Credit_Limit">Credit Limit: </string>
+    <string name="Geo_Code_X_Lat">Geo Code X </string>
+    <string name="Geo_Code_Y_Long">Geo Code Y </string>
+    <string name="Print">Print</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="warning">Warning !</string>
+    <string name="confirmation">confirmation</string>
+    <string name="Reset_Done">Stock reset done successfully.</string>
+    <string name="Stock_not_available">Stock is not available</string>
+    <string name="pricing_list_is_not_available">Pricing list is not available</string>
+    <string name="no_connectivity">No Connectivity !</string>
+    <string name="loading">Loading ...</string>
+    <string name="loading_stock">Loading Stock...</string>
+    <string name="error_occured_while_verification">Error occurred while verifying. Please try again.</string>
+    <string name="please_wait">Please wait ...</string>
+    <string name="pls_enter_passcode">Please enter passcode.</string>
+    <string name="enter_valid_passcode">Please enter a valid passcode.</string>
+    <string name="passcode_dialog">PassCode Dialog</string>
+    <string name="No_matching_record_found">No matching record found.</string>
+    <string name="please_sign_before_submit">Please sign before submitting the stock verification.</string>
+    <string name="enter_password">Please enter password.</string>
+    <string name="select_orderItems_first">Please select order items first.</string>
+    <string name="you_are_not_authorized_to_login">You are not authorized to login.</string>
+    <string name="enter_username_password">Please enter user code and password.</string>
+    <string name="sync_pending_invoices">Syncing Pending Invoices.</string>
+    <string name="enter_username">Please enter user code.</string>
+    <string name="Payment_Confirm">  Payment Confirm  </string>
+    <string name="Discount_in_percentage">Discount (in %)</string>
+    <string name="Total_value">Invoice Price:</string>
+    <string name="Empty_Jar_value">EmptyJar value (AED):</string>
+    <string name="Order_value">Order Value:</string>
+    <string name="Price">Price</string>
+    <string name="AddItem">Add Item</string>
+    <string name="Finalize"> &#032;&#032;Finalize&#032;&#032;</string>
+    <string name="Capture_Inventory">Capture Order</string>
+    <string name="free_delivery">Free Delivery</string>
+    <string name="No_previous_order">Please add items</string>
+    <string name="itemcode">Item Code &amp; Description</string>
+    <string name="Cases">Cases</string>
+    <string name="Gate_Pass_QTY">Gatepass (Cases)</string>
+    <string name="Gate_Pass_QTY_p">Gatepass (Units)</string>
+    <string name="check_in_demand">Check in Demand</string>
+    <string name="Units">Units</string>
+    <string name="Empty_Jar">E.Jar</string>
+    <string name="Add_New_SKU_Item">Add Items</string>
+    <string name="Item_Desc">Item Desc</string>
+    <string name="Category">Category</string>
+    <string name="Search">Search</string>
+    <string name="Item_Code">Item Code</string>
+    <string name="Item_Description">Item Description</string>
+    <string name="No_item_found">No item found</string>
+    <string name="Add">Add</string>
+    <string name="Preview_Order">Preview Order</string>
+    <string name="Invoice_Preview">Invoice Preview</string>
+    <string name="Sales_Qty">Sales Qty</string>
+    <string name="Returns_Qty">Returns Qty</string>
+    <string name="Damaged_Qty">Damaged Qty</string>
+    <string name="Exchanges_Qty">Exchanges Qty</string>
+    <string name="Free_Items_Qty">Free Items Qty</string>
+    <string name="Return_Free_Items">Return Free Items</string>
+    <string name="PO_CRM_Order">PO / CRM Order</string>
+    <string name="Remarks">Remarks</string>
+    <string name="ReturnReason1">Expired</string>
+    <string name="ReturnReason2">Soon To Expire</string>
+    <string name="ReturnReason3">Damaged</string>
+    <string name="Confirm_Order">  Confirm Order  </string>
+    <string name="Save_as_Draft"> Save as Draft </string>
+    <string name="Discount_if_any_inpercentage">Discount if any (%)</string>
+    <string name="Print_Customer_Copy">Customer Copy </string>
+    <string name="Print_Merchant_Copy">Merchant Copy </string>
+    <string name="Print_Merchant">Merchant Copy</string>
+    <string name="Print_Customer">Customer Copy</string>
+    <string name="Customer_History">Customer History</string>
+    <string name="Next">Next</string>
+    <string name="Continue">&#032;Continue&#032;</string>
+    <string name="Total_Amt">Total Amt</string>
+    <string name="baskin_robbin_title">Galadari Brothers Co. L.L.C.</string>
+    <string name="baskin_robbin_address">215/18 Street, Umm Ramool\nRashidiya Industrial Area\nP. O. Box 10759, Dubai, UAE\nTel: 04-605 7000 Fax: 04-286 0863</string>
+  <string name="baskin_robbin_address_SAR">P.B.1401. Dammam-31431, K.S.A\nTel: +966 3 8343410-Ext 2505,\nFax 1: +966 3 8092563 (Direct),\nFax 2: +966 3 8350019 (General),\nMob:+966 565170378</string>
+    <string name="Discount">Discount</string>
+    <string name="Customer_Signature">Customer Signature</string>
+    <string name="Preseller_Signature">Salesman Signature</string>
+    <string name="Total">Total</string>
+    <string name="Customer_Passcode">Customer Passcode:</string>
+    <string name="Delivery_Date">Delivery Date:</string>
+    <string name="Delivery_Time">Delivery Time:</string>
+    <string name="Delivery_Window">Delivery Window:</string>
+    <string name="Signature">Signature :</string>
+    <string name="Clear">Clear</string>
+    <string name="validating_your_credit_limit">Validating your credit limit ...</string>
+    <string name="please_wait_order_pushing">Please wait, while your order is pushing to server...</string>
+    <string name="exceeded_your_credit_limit_tele_order">You exceeded your credit limit.</string>
+    <string name="Order_pushed_to_server_successfully">Order pushed to server successfully.</string>
+    <string name="Order_not_pushed">Order has been placed successfully.</string>
+    <string name="return_Order_not_pushed">Return Order has been placed successfully.</string>
+    <string name="return_jar_Order_not_pushed">Empty jar return request has been placed.</string>
+    <string name="successful">Successful !</string>
+    <string name="free_delivery_order">Free delivery has been made successfully.</string>
+    <string name="your_sales_order_printed">Your Sales Order has been printed successfully.</string>
+    <string name="your_sales_Invoice_printed">Your Invoice has been printed successfully.</string>
+    <string name="Recommended_Order">Recommended Order</string>
+    <string name="your_recommended_order_is_printing">Your Recommended Order is printing ...</string>
+    <string name="your_recommended_order_printed">Your Recommended Order has been printed successfully.</string>
+    <string name="Edit">Edit</string>
+    <string name="Confirm"> Confirm</string>
+    <string name="returned_successfully">Returned successfully !</string>
+    <string name="goods_returned_customer_return_request">Goods returned from the customer as per return request.</string>
+    <string name="goods_returned_customer_request">Goods returned  as per the customer request.</string>
+    <string name="do_you_want_to_create_a_Return_Request">Do you want to collect these items?</string>
+    <string name="please_add_any_item_first">Please add any Item first.</string>
+    <string name="zxing_url">http://code.google.com/p/zxing</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="contents_email">Email address</string>
+    <string name="contents_location">Geographic coordinates</string>
+    <string name="contents_phone">Phone number</string>
+    <string name="contents_sms">SMS address</string>
+    <string name="contents_text">Plain text</string>
+    <string name="menu_share">Share</string>
+    <string name="msg_about">The official Android app of the open source ZXing barcode project.</string>
+    <string name="msg_buggy">This device has known bugs that cause barcode scanning problems. For more information, visit http://code.google.com/p/zxing/wiki/FrequentlyAskedQuestions</string>
+    <string name="msg_bulk_mode_scanned">Bulk mode: barcode scanned and saved</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="msg_default_contents">Contents</string>
+    <string name="msg_default_format">Format</string>
+    <string name="msg_default_meta">Metadata</string>
+    <string name="msg_default_mms_subject">Hi</string>
+    <string name="msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string>
+    <string name="msg_default_time">Time</string>
+    <string name="msg_default_type">Type</string>
+    <string name="msg_encode_barcode_failed">Could not generate the requested barcode.</string>
+    <string name="msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
+    <string name="msg_google_shopper_missing">Google Shopper is not installed</string>
+    <string name="msg_install_google_shopper">Google Shopper combines barcode scanning with online and local prices, reviews and more without opening the browser. Would you like to try it?</string>
+    <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+    <string name="msg_loading_apps">Loading list of applications\u2026</string>
+    <string name="msg_not_our_results">You are leaving this application. The search results you will see are not related to this application.</string>
+    <string name="msg_redirect">Redirect</string>
+    <string name="msg_sbc_book_not_searchable">Sorry, this book is not searchable.</string>
+    <string name="msg_sbc_failed">Sorry, the search encountered a problem.</string>
+    <string name="msg_sbc_no_page_returned">No page returned</string>
+    <string name="msg_sbc_page">Page</string>
+    <string name="msg_sbc_searching_book">Searching book\u2026</string>
+    <string name="msg_sbc_snippet_unavailable">Snippet not available</string>
+    <string name="msg_sbc_unknown_page">Unknown page</string>
+    <string name="msg_share_explanation">You can share data by displaying a barcode on your screen and scanning it with another phone.</string>
+    <string name="msg_share_subject_line">Here are the contents of a barcode I scanned</string>
+    <string name="msg_share_text">Or type some text and press Enter</string>
+    <string name="msg_unmount_usb">Sorry, the SD card is not accessible.</string>
+    <string name="preferences_actions_title">When a barcode is found\u2026</string>
+    <string name="preferences_bulk_mode_summary">Scan and save many barcodes continuously</string>
+    <string name="preferences_bulk_mode_title">Bulk scan mode</string>
+    <string name="preferences_copy_to_clipboard_title">Copy to clipboard</string>
+    <string name="preferences_custom_product_search_summary" formatted="false">Use %s as a placeholder for the product ID, and %f for format</string>
+    <string name="preferences_custom_product_search_title">Custom search URL</string>
+    <string name="preferences_decode_1D_title">1D barcodes</string>
+    <string name="preferences_decode_Data_Matrix_title">Data Matrix</string>
+    <string name="preferences_decode_QR_title">QR Codes</string>
+    <string name="preferences_front_light_summary">Improves scanning in low light on some phones, but may cause glare. Does not work on all phones.</string>
+    <string name="preferences_front_light_title">Use front light</string>
+    <string name="preferences_general_title">General settings</string>
+    <string name="preferences_name">Settings</string>
+    <string name="preferences_play_beep_title">Beep</string>
+    <string name="preferences_remember_duplicates_summary">Store multiple scans of the same barcode in History</string>
+    <string name="preferences_remember_duplicates_title">Remember duplicates</string>
+    <string name="preferences_reverse_image_summary">Enable on devices with a front camera only</string>
+    <string name="preferences_reverse_image_title">Reversed camera image</string>
+    <string name="preferences_result_title">Result settings</string>
+    <string name="preferences_scanning_title">When scanning for barcodes, decode\u2026</string>
+    <string name="preferences_supplemental_summary">Try to retrieve more information about the barcode contents</string>
+    <string name="preferences_supplemental_title">Retrieve more info</string>
+    <string name="preferences_vibrate_title">Vibrate</string>
+    <string name="result_address_book">Found contact info</string>
+    <string name="result_calendar">Found calendar event</string>
+    <string name="result_email_address">Found email address</string>
+    <string name="result_geo">Found geographic coordinates</string>
+    <string name="result_isbn">Found book</string>
+    <string name="result_product">Found product</string>
+    <string name="result_sms">Found SMS address</string>
+    <string name="result_tel">Found phone number</string>
+    <string name="result_text">Found plain text</string>
+    <string name="result_uri">Found URL</string>
+    <string name="result_wifi">Found WLAN Configuration</string>
+    <string name="sbc_name">Google Book Search</string>
+    <string name="share_name">Share via barcode</string>
+    <string name="title_about">Barcode Scanner v</string>
+    <string name="wa_name">WLAN Connection</string>
+    <string name="wifi_changing_network">Changing Network</string>
+    <string name="wifi_connected">Connected</string>
+    <string name="wifi_creating_network">Creating Network</string>
+    <string name="wifi_modifying_network">Modifying Network</string>
+    <string name="wifi_ssid_missing">Network name missing</string>
+    <string name="wifi_type_incorrect">Network type incorrect</string>
+    <string name="wifi_connect_failed">Network connection failed</string>
+    <string name="wifi_ssid_label">Network Name</string>
+    <string name="wifi_type_label">Type</string>
+    <string name="button_open_browser">Open browser</string>
+    <string name="button_product_search">Product Search</string>
+    <string name="button_read_book">Browse book</string>
+    <string name="button_search_book_contents">Search contents</string>
+    <string name="button_share_app">Application</string>
+    <string name="button_share_bookmark">Bookmark</string>
+    <string name="button_share_by_email">Share via email</string>
+    <string name="button_share_by_sms">Share via SMS</string>
+    <string name="button_share_clipboard">Clipboard</string>
+    <string name="button_share_contact">Contact</string>
+    <string name="button_show_map">Show map</string>
+    <string name="button_sms">Send SMS</string>
+    <string name="button_web_search">Web search</string>
+    <string name="button_wifi">Connect to Network</string>
+    <string name="history_clear_text">Clear history</string>
+    <string name="history_email_title">Barcode Scanner history</string>
+    <string name="history_send">Send history</string>
+    <string name="history_title">Six Months History </string>
+    <string name="menu_about">About</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_history">History</string>
+    <string name="menu_settings">Settings</string>
+    <string name="please_wait_data_uploading">Data is uploading. Please wait ...</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_custom_product_search">Custom search</string>
+    <string name="do_you_want_to_logout">Are you sure you want to logout?</string>
+    <string name="payment_successful">Thank you for making payment. Your payment has been made successfully.</string>
+    <string name="you_served_this_customer_successfully_another_order">You have successfully served this customer. Do want to take another order?</string>
+    <string name="you_served_this_Order_successfully">You have successfully served this Order.</string>
+    <string name="Your_payment_detail_has_been_prited_successfully">Your Invoice or payment detail has been printed successfully.</string>
+    <string name="Cashier"> Cashier</string>
+    <string name="Asset_Location">Asset Location :</string>
+    <string name="Freezer"> Freezer</string>
+    <string name="Asset_Type">Asset Type :</string>
+    <string name="Quantity">QTY</string>
+    <string name="Chiller">Chiller (768945)</string>
+    <string name="Product_Quantity">Product Quantity</string>
+    <string name="Submit2">  Submit  </string>
+    <string name="Alert1date">12th March, 2012 ; 10:45 AM</string>
+    <string name="upgrade_now">Update Now</string>
+    <string name="alert">Alert !</string>
+    <string name="latter">No, Thanks</string>
+    <string name="Validating">Validating user...</string>
+    <string name="Item_Code_Description">Item Code &amp; Description</string>
+    <string name="balanceNumber">Amount</string>
+    <string name="paidAmount">  Paid Amount</string>
+    <string name="add_new_order">Take New Order </string>
+    <string name="Description">Description</string>
+    <string name="stock_verified_in_the_van_as_per_the_order">Stock verification completed.</string>
+    <string name="return_stock_verified_in_the_van_as_per_the_order">Unload stock request has been verified successfully.</string>
+    <string name="verified">Verified !</string>
+    <string name="Total_Qty">Total Qty</string>
+    <string name="Delivered_Qty">Delvrd Qty</string>
+    <string name="Avail_Qty">Avail Qty</string>
+    <string name="First_check_out_to_checked_in_customer_to_take_tele_order">You are inbetween your current task. Do you want to finish it?</string>
+    <string name="end_of_trip">End of trip !</string>
+    <string name="you_have_taken_five_minute_more">You have successfully served all customers. You have taken 5 minutes more to serve customers.Do you want to submit EOT.</string>
+    <string name="you_successfully_served_all_customers">You successfully served all customers. Do you want to submit EOT.</string>
+    <string name="no_internet">Internet connection is not available. Please check your network settings.</string>
+    <string name="no_internet_forLog">Internet connection is not available to uploadlog. Please check your network settings.</string>
+    <string name="refresh">Refresh</string>
+
+    <string name="No_approved_qty">Approved Qty is Zero(0).Refresh now to get the qty</string>
+    <string-array name="type">
+        <item>Sales Order</item>
+        <item>Free Delivery Order</item>
+        <item>Advance Order</item>
+        <item>New Customers</item>
+        <item>Payments</item>
+        <item>Agent Order Details</item>
+        <item>Journey Logs</item>
+    </string-array>
+
+    <string name="baskin_robbin_title_ar">كلداري إخوان C.L.L.</string>
+    <string name="baskin_robbin_address_ar">منطقة القوز الصناعية الأولى,,\n138, دبي، الإمارات العربية المتحدة\nالاتصال على: +971 4-338-8800\nفاكس: +971 4-338-1918</string>
+    <string name="item_desc_ar">البنود والتفاصيل</string>
+    <string name="qty_ar">االكمية</string>
+    <string name="disc_ar">القرص</string>
+    <string name="price_ar">السعر</string>
+    <string name="total_price_ar">السعر الإجمالي</string>
+    <string name="invoice_price_ar">فاتورة الأسعار</string>
+    <string name="customersign_ar">التوقيع العملاء</string>
+    <string name="salesmansign_ar">التوقيع العملاء</string>
+    <string name="clear_ar">واضح</string>
+    <string name="assortedtubs">أحواض متنوعة</string>
+    <string name="jamocatub">باسكن روبنز الآيس كريم</string>
+    <string name="cuppaper">كوب ورقي</string>
+    <string name="cakebox">كعكة مربع</string>
+    <string name="upload_sqlite_file_for_debug">Upload SQLite File for Debug</string>
+    <string name="good_condition">Good Condition</string>
+    <string name="sellable">Sellable</string>
+    <string name="non_sellable">Non-Sellable</string>
+    <string name="baskin_facebook">www.facebook.com/BaskinRobbinsGulf</string>
+    <string name="baskin_twitter">www.twitter.com/brmiddleeast</string>
+    <string name="title_activity_device_activation">DeviceActivation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ebs_approved">EbsApprovedActivity</string>
+    
+        <string name="key_field_type">fieldtype</string>
+        <string name="key_edit_type">editType</string>
+
+
+
+  <!-- SAR Address -->
+  <string name="adress_1">شركة جميرة التجارية المحدودة</string>
+  <string name="adress_2">المركز الرئيسي</string>
+  <string name="adress_3">ص.ب 1401 – الدمام 31431</string>
+  <string name="adress_4">تلفون: 0138343410</string>
+  <string name="adress_5">      : 0138332548</string>
+  <string name="adress_6">فاكس: 01388350019</string>
+  <string name="adress_7">س.ت 2050043485</string>
+  <string name="item_dummy">فانيلا لا البيض حوض</string>
+  <string name="account_has_been_credited">نفيدكم بانه قد تم ايداع المبلغ في حسابكم كم موضح ادناه:</string>
+  <string name="return_order_header">رقم الضريبة</string>
+  <string name="trn_header">رقم الضريبة</string>
+  <string name="tax_credit_invoice">فاتورة ضريبية آجلة</string>
+  <string name="tax_invoice">فاتورة ضريبية</string>
+  <string name="bill_to">. فاتورة لحساب</string>
+  <string name="address">جدة، السعودية</string>
+  <string name="customer_phone_number">رقم العميل </string>
+  <string name="invoice_no">رقم الفاتورة</string>
+  <string name="invoice_date">تاريخ الفاتورة</string>
+  <string name="due_date">تاريخ الاستحقاق</string>
+  <string name="sales_person">اسم البائع</string>
+  <string name="container_no">رقم الحاوية</string>
+
+  <string name="s_no">الرقم</string> <!--5-->
+  <string name="item">الصنف</string>  <!--5-->
+  <string name="description">الوصف</string> <!--5-->
+  <string name="qty">الكمية</string> <!--6-->
+  <string name="gross">الاجمالي</string> <!--8-->
+  <string name="net">الصافي</string> <!--6-->
+  <string name="net_total">صافي المجموع</string> <!--13-->
+  <string name="price">السعر</string>
+  <string name="amount">المبلغ</string> <!--6-->
+  <string name="grand_total">الاجمالي الكلي</string><!--14-->
+  <string name="discount">خصم</string>
+  <string name="sub_total">المجموع الفرعي</string>
+  <string name="vat_total">مجموع ضريبة القيمة المضافة</string> <!--25-->
+  <string name="jum_trading">شركة جميرة التجارية المحدودة</string>
+  <string name="received_by">استلمت بواسطة</string> <!--13-->
+  <string name="receivers_sign">توقيع وختم المستلم</string>
+
+  <string name="tax_credit_note">مذكرة ائتمان الضريبة</string>
+  <string name="tel">الهاتف:</string>
+  <string name="fax">فاكس</string>
+  <string name="email">البريد الالكتروني:</string><!--18-->
+  <string name="customer_name">اسم العميل:</string>
+  <string name="customer_address">عنوان العميل</string> <!--12-->
+  <string name="trn">رقم التحويل:</string>
+  <string name="total">الاجمالي</string><!--8-->
+  <string name="account_has_been">نفيدكم بانه قد تم ايداع المبلغ في حسابكم كم موضح ادناه:</string><!--57-->
+  <string name="vat_amount">قيمة الضريبة</string><!--13-->
+  <string name="vat_rate">نسبة الضريبة</string><!--13-->
+  <string name="difference">الاختلاف </string><!--9-->
+  <string name="revised_amount">الفاتورة المراجعة</string><!--17-->
+  <string name="original_inv_amount">الفاتورة الاصلية</string><!--16-->
+  <string name="inv_ref">رقم الفاتورة</string><!--13-->
+  <string name="particulars">التفاصيل</string> <!--8-->
+  <string name="date">التاريخ</string><!--7-->
+  <string name="document_no">رقم الوثيقة</string><!--11-->
+  <string name="amt_credit_in_words">المبلغ المودع بالحروف:</string><!--22-->
+  <string name="approved_by">صادق عليه :</string><!--11-->
+  <string name="prepared_by">اعدة بواسطة</string><!--11-->
+  <string name="user_name">اسم المستخدم</string><!--12-->
+  <string name="run_date">التاريخ</string><!--7-->
+  <string name="collected_by">تم تحصيله بواسطه</string><!--16-->
+  <string name="customer_grv_no">رقم وثيقه الارجاع حسب العميل</string><!--31-->
+  <string name="sub_inventory">المخزون الفرعي</string><!--15-->
+  <string name="customer_trn_no">الرقم الضريبي للعميل</string><!--15-->
+  <string name="uom1">وحدة</string><!--4-->
+  <string name="uom2">القياس</string><!--6-->
+  <string name="vat_rate1">نسبة</string><!--4-->
+  <string name="vat_rate2">الضريبة</string><!--7-->
+  <string name="vat_amt1">قيمة</string><!--4-->
+  <string name="vat_amt2">الضريبة</string><!--7-->
+  <string name="rate">تقييم</string><!--5-->
+  <string name="discount_ret">الخصم</string><!--5-->
+  <string name="credit_in_words">المبلغ المودع بالحروف</string><!--21-->
+  <string name="reason_for_credit">سبب الايداع</string><!--10-->
+  <string name="customer_sign">توقيع العميل و الختم</string><!--21-->
+  <string name="ex_date"> تاريخ الانتهاء</string><!--14-->
+  <string name="lot_no">رقم الشحنه </string><!--11-->
+
+  <!--arabic words -->
+  <string name="one_ar">واحد</string><!--11-->
+  <string name="two_ar">إثنان</string><!--11-->
+  <string name="three_ar">ثلاثه</string><!--11-->
+  <string name="four_ar">أربعه</string><!--11-->
+  <string name="five_ar">خمسه</string><!--11-->
+  <string name="six_ar">سته</string><!--11-->
+  <string name="seven_ar">سبعه</string><!--11-->
+  <string name="eight_ar">ثمانيه</string><!--11-->
+  <string name="nine_ar">تسعه</string><!--11-->
+
+
+  <!--convertNumberToArabicWords-->
+  <string name="c_ar"> فاصلة </string><!--11-->
+
+  <!--convertTwoDigits-->
+
+  <string name="ca_ar">إحدى عشر</string><!--11-->
+  <string name="caa_ar">إثنى عشر</string><!--11-->
+  <string name="ctb_ar">عشر</string><!--11-->
+  <!--returnAlpha-->
+  <string name="ctb_two_ar">عشرون</string><!--11-->
+  <string name="ctb_three_ar">ثلاثون</string><!--11-->
+  <string name="ctb_four_ar">أريعون</string><!--11-->
+  <string name="ctb_five_ar">خمسون</string><!--11-->
+  <string name="ctb_six_ar">ستون</string><!--11-->
+  <string name="ctb_seven_ar">سبعون</string><!--11-->
+  <string name="ctb_eight_ar">ثمانون</string><!--11-->
+  <string name="ctb_nine_ar">تسعون</string><!--11-->
+
+  <!--convertThreeDigits-->
+
+  <string name="ch_ar">مائه</string><!--11-->
+  <string name="cha_ar"> و </string><!--11-->
+  <string name="chb_ar">مائتين</string><!--11-->
+  <string name="chc_ar">مائه</string><!--11-->
+
+  <!--convertFourDigits-->
+
+  <string name="cf_ar">ألف</string><!--11-->
+  <string name="cfa_ar">ألفين</string><!--11-->
+  <string name="cfb_ar"> ألاف</string><!--11-->
+  <!--convertFiveDigits-->
+  <string name="cv_ar"> ألف </string><!--11-->
+  <string name="cva_ar"> ألفا </string><!--11-->
+
+  <!--convertFiveDigits-->
+
+  <string name="cs_ar"> ألف </string><!--11-->
+  <string name="csa_ar"> ألفا </string><!--11-->
+
+
+  <string name="please_contact_service_provider">Unable to login, please contact service provider.</string>
+  <string name="to_date_should_not_be_lesser_than_from_date">To Date should not be lesser than From Date.</string>
+  <string name="from_date_should_not_be_greater_than_to_date">From Date should not be greater than To Date.</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

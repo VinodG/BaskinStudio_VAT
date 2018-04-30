@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvStockInventory"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:background="#ffffff"
+            android:text="Stock Loading"
+            android:textColor="#02505B"
+            android:textStyle="bold"
+            android:textSize="20dip" >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip" >
+
+            <!-- <EditText
+                android:id="@+id/etSearch"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/searchinput"
+                android:drawableRight="@drawable/searchicon"
+                android:gravity="center_vertical"
+                android:hint="Search by item code."
+                android:imeOptions="actionSearch"
+                android:paddingBottom="2dip"
+                android:paddingLeft="12dip"
+                android:paddingRight="12dip"
+                android:paddingTop="2dip"
+                android:singleLine="true"
+                android:textSize="13dip" >
+            </EditText> -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/smallbg"
+            android:gravity="center_vertical|center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvCodeEOP"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:text="@string/itemcodenddesc"
+                android:textColor="@color/white" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvCasesEOP"
+                android:layout_width="70dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Cases"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tvUnitsEOP"
+                android:layout_width="71dip"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/sapare"
+                android:gravity="center"
+                android:text="Units"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvNoOrderFound"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:text="No_item_found"
+            android:background="#ffffff"
+            android:textColor="@color/list_middle"
+            android:textSize="20dip" />
+
+        <LinearLayout
+            android:id="@+id/llAddItems"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/basefooter"
+        android:gravity="right"
+        android:orientation="horizontal" >
+        
+        <TextView 
+            android:id="@+id/tv_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scan"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:layout_marginRight="15dp"
+            android:drawableLeft="@drawable/scan"
+            android:textStyle="bold"
+            android:background="@color/transparent"/>
+
+        <View 
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:background="#ffffff"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"/>
+        <TextView 
+            android:id="@+id/tv_Add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:paddingTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/add"
+            android:textStyle="bold"
+            android:background="@color/transparent"/>
+          <View 
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:background="#ffffff"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"/>
+        <TextView 
+            android:id="@+id/tv_verify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verify"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/check5"
+            android:textStyle="bold"
+            android:background="@color/transparent"/>
+        
+        
+    </LinearLayout>
+
+</LinearLayout>

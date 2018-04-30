@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg4"
+    android:orientation="horizontal" >
+
+    <!-- Dash Board Left Layout -->
+
+    <LinearLayout
+        android:id="@+id/llDashBoard"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sidebg"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ListView
+            android:id="@+id/lvDashBoard"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="@null"
+            android:divider="@drawable/dot_seperator"
+            android:dividerHeight="1dip"
+            android:fadingEdge="none"
+            android:scrollbars="none" />
+    </LinearLayout>
+    <!-- Dash Board Right Layout -->
+
+    <LinearLayout
+        android:id="@+id/llBodyRight"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:id="@+id/llHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/basetitle_bg" >
+			<LinearLayout 
+			    android:id="@+id/llMenu"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical"
+			    android:layout_gravity="center_vertical">
+            <Button
+                android:id="@+id/btnMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2dip"
+                android:background="@drawable/btn_menu_click" />
+            
+            <ImageView
+	                android:id="@+id/btnLogo"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center"
+	                android:layout_marginBottom="2dp"
+	                android:layout_marginLeft="10dp"
+	                android:background="@drawable/toplogo2"
+	                android:contentDescription="@string/app_name" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dip"
+                android:visibility="gone" />
+
+            <!--
+                 <Button
+                android:id="@+id/btnLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/logo" />
+            -->
+
+			
+            <Button
+                android:id="@+id/btnSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <!--
+                 <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="3dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvUsername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Aniyas.babu"
+                    android:textColor="@color/list_middle"
+                    android:textSize="11dip" />
+
+                <TextView
+                    android:id="@+id/tvUserType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Preseller"
+                    android:textColor="@color/list_middle"
+                    android:textSize="9dip" />
+            </LinearLayout>
+            -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="right" 
+                android:layout_marginRight="10dip">
+
+                <TextView
+                    android:id="@+id/tvUsername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text=""
+                    android:textColor="#03577C"
+                    android:textSize="14dp" 
+                    android:gravity="right"
+                    />
+
+                <TextView
+                    android:id="@+id/tvUserType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="SALESMAN"
+                    android:textColor="#535257"
+                    android:textSize="12dp" />
+            </LinearLayout>
+             <ImageView
+                android:id="@+id/ivLogOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/topsaparetor"
+                android:contentDescription="@string/app_name"
+                android:visibility="gone"
+                android:layout_marginRight="5dip"
+                 />
+
+            <Button
+                android:id="@+id/btnLogOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="2dip"
+                android:background="@drawable/logout" 
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btnLoginLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llSecurityHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tvSecurityHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:textColor="@color/white"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnChkOutVan"
+                android:layout_width="fill_parent"
+                android:layout_height="35dip"
+                android:layout_weight="1"
+                android:text="Check-Out Of Van"
+                android:textColor="@color/list_title"
+                android:textSize="16dip"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnChkInVan"
+                android:layout_width="fill_parent"
+                android:layout_height="35dip"
+                android:layout_weight="1"
+                android:text="Check-In Of Van"
+                android:textColor="@color/list_title"
+                android:textSize="16dip"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llBody"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dip"
+        android:background="@drawable/searchbg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/etSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dip"
+            android:layout_weight="1"
+            android:background="@drawable/topsearch"
+            android:drawableLeft="@drawable/searchicon"
+            android:drawablePadding="5dip"
+            android:gravity="center_vertical"
+            android:hint="Search by Site Name/ Site Id"
+            android:imeOptions="actionDone"
+            android:paddingLeft="5dip"
+            android:paddingRight="12dip"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="13dip" >
+        </EditText>
+
+        <!--
+             <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/searchicon" />
+        -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tvJourneyPlanDate"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:text="Journey Plan"
+            android:textColor="@color/grey"
+            android:textSize="17dip" />
+
+        <TextView
+            android:id="@+id/tvJourneyPlanDateValue"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:text="Journey_date"
+            android:textColor="@color/black"
+            android:textSize="17dip" />
+
+        <Button
+            android:id="@+id/btnTopCalIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cal_btn_click"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTimTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbg"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="44dip"
+            android:layout_height="fill_parent"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/clock" />
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="16dip" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/sep_new" />
+
+        <TextView
+            android:id="@+id/tvCustomers"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Customers"
+            android:textColor="@color/white"
+            android:textSize="16dip" />
+
+        <Button
+            android:id="@+id/btnTopCalIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cal_btn_click"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvResultOfSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="No record found"
+        android:textColor="@color/list_title"
+        android:textSize="17dip"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/flContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <ListView
+            android:id="@+id/lvEvents"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dip"
+            android:scrollbars="none"
+            android:scrollingCache="false" />
+
+        <LinearLayout
+            android:id="@+id/llMap"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <fragment
+                android:id="@+id/map1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                class="com.google.android.gms.maps.SupportMapFragment"
+                android:visibility="visible" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/llFooter"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/basefooter"
+        android:gravity="center_vertical"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/tvSortBy"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/dwn_arrow_click"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dip"
+            android:text="Sort By"
+            android:textColor="@color/white"
+            android:textSize="16dip"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnAdvance"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/upload_orders"
+            android:text="Advance Order Delivery"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+        
+        <Button
+            android:id="@+id/btnCustomers"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/upload_orders"
+            android:text="Customers"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvSeprator"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/sep_new" />
+
+        <Button
+            android:id="@+id/btnGlobe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_globe_click" />
+    </LinearLayout>
+
+</LinearLayout>

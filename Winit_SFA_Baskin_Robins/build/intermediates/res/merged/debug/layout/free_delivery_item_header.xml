@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvLu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbgbg"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:singleLine="true"
+        android:text="@string/free_delivery"
+        android:textColor="@color/white"
+        android:textSize="@dimen/customer_text_size"
+        android:textStyle="bold" >
+    </TextView>
+
+    <!--
+    <TextView
+        android:id="@+id/tvCI"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:background="@drawable/smallbg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="@string/free_delivery"
+        android:textColor="@color/white"
+        android:textSize="18dip"> 
+    </TextView>
+    -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="35dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:orientation="vertical"
+                android:text="Name :"
+                android:textColor="@color/black"
+                android:textSize="16dip" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="200dip"
+                android:layout_height="35dip"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/input_new"
+                android:hint="Enter Name"
+                android:imeOptions="actionDone"
+                android:orientation="vertical"
+                android:padding="5dip"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="16dip" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip" >
+
+            <TextView
+                android:id="@+id/tvRegionCode"
+                android:layout_width="wrap_content"
+                android:layout_height="35dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:orientation="vertical"
+                android:text="Reason :"
+                android:textColor="@color/black"
+                android:textSize="16dip" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/etRegionCode"
+                android:layout_width="200dip"
+                android:layout_height="35dip"
+                android:layout_marginLeft="10dip"
+                android:background="@drawable/spinner_disabled_holo_light"
+                android:gravity="center_vertical"
+                android:hint="Select Reason"
+                android:orientation="vertical"
+                android:padding="5dip"
+                android:textColor="@color/black"
+                android:textSize="16dip" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/dot_seperator" />
+
+    <TextView
+        android:id="@+id/tvNoOrder"
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/No_previous_order"
+        android:textColor="@color/List_header2"
+        android:textSize="18dip"
+        android:visibility="gone" />
+
+</LinearLayout>

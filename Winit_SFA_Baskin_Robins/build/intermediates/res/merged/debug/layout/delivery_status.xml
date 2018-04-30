@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dip"
+    android:background="@drawable/back"
+    android:orientation="horizontal" >
+
+    <View
+        android:id="@+id/sideView"
+        android:layout_width="5dip"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="2dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="2dip"
+        android:background="@color/customer_served"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dip"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvOrderNoStatus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="Order_1"
+            android:textColor="@color/list_title"
+            android:textSize="16dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvCustomerNameStatus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:text="Carrefour"
+            android:textColor="@color/list_middle" />
+
+        <TextView
+            android:id="@+id/tvCustomerLocationStatus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="Downtown_Dubai"
+            android:textColor="@color/list_time"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvSatusStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/status"
+        android:gravity="center"
+        android:text="status"
+        android:textColor="@color/white"
+        android:textSize="11dip"
+        android:visibility="gone" />
+
+</LinearLayout>

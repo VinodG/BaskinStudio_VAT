@@ -1,0 +1,922 @@
+[
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\return_stock_option.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\return_stock_option.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\recommendedorder.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\recommendedorder.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\bluetooth_menu.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\bluetooth_menu.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\update_contact_detail.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\update_contact_detail.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\takephoto.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\takephoto.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\esignature_order_preview_free_delivery.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\esignature_order_preview_free_delivery.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\my_activity_list_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\my_activity_list_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\assets_list_cell_new.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\assets_list_cell_new.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\assetscanlist_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\assetscanlist_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\competitor_detail.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\competitor_detail.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\custom_popup_printer_list.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\custom_popup_printer_list.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\assets_list_new.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\assets_list_new.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\itemscan.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\itemscan.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\assetservice.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\assetservice.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\inventory_popup.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\inventory_popup.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\sync_log_layout.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\sync_log_layout.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\pending_invoice_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\pending_invoice_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\orderitems_boking_child.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\orderitems_boking_child.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\assetscan.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\assetscan.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\assets_request.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\assets_request.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\order_details_list.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\order_details_list.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\invoice_list_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\invoice_list_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\journeyplan.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\journeyplan.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\custom_common_popup_new.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\custom_common_popup_new.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\product_catlog.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\product_catlog.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\return_stock_from_vehicle.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\return_stock_from_vehicle.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\payment_detail_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\payment_detail_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\managespace.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\managespace.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\add_replacement_items.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\add_replacement_items.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\transferin_header.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\transferin_header.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\no_data_textview.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\no_data_textview.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\about_application.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\about_application.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_return_stock.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\item_list_return_stock.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\bluetooth_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\bluetooth_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\pending_invoice_popup.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\pending_invoice_popup.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\esignature_order_preview.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\esignature_order_preview.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\map_popup.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\map_popup.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\add_new_sku_popup.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\add_new_sku_popup.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\customerhitorypopup.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\customerhitorypopup.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\ar_collection.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\ar_collection.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\house_contact_detail.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\house_contact_detail.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\progressdialog.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\progressdialog.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\additem_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\additem_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\signature_driver_supervsor_new.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\signature_driver_supervsor_new.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\survey_answer_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\survey_answer_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\sync_log_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\sync_log_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_to_verify_new.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\item_list_to_verify_new.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\orderitems_returns.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\orderitems_returns.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\summaryofday.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\summaryofday.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\sortby_popup.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\sortby_popup.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\unload_data_screen.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\unload_data_screen.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\skip_journey_plan_popup_.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\skip_journey_plan_popup_.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\delivery_status.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\delivery_status.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\custom_popup_order_complete.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\custom_popup_order_complete.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\rounded_off_popup.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\rounded_off_popup.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\listcell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\listcell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\custom_popup_upcomming_detail.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\custom_popup_upcomming_detail.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\product_category_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\product_category_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\customer_invoice.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\customer_invoice.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\orderitems_deliver.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\orderitems_deliver.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\result_cell_return_order_hidden_item.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\result_cell_return_order_hidden_item.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\transfer_in_cell_chield.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\transfer_in_cell_chield.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\transfer_in_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\transfer_in_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\free_delivery_item_header.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\free_delivery_item_header.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\callistviewcellxml_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\callistviewcellxml_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\custom_popup_order_print.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\custom_popup_order_print.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\device_name.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\printer_selection_popup.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\printer_selection_popup.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\preview_header_freedelivery.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\preview_header_freedelivery.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\add_sku_popup.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\add_sku_popup.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\salesman_stock_inventory.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\salesman_stock_inventory.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\preview_order_list_cell_freedelivery.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\preview_order_list_cell_freedelivery.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\van_qty_diff_popup.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\van_qty_diff_popup.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\inventory_qty_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\inventory_qty_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\dashboard_options_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\dashboard_options_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_to_verify.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\item_list_to_verify.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\odometer_reading.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\odometer_reading.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\preview_order_list_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\preview_order_list_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\custom_builder_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\custom_builder_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\preview_order_list.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\preview_order_list.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\preview_header.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\preview_header.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\address.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\address.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\replace_inventory_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\replace_inventory_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\custom_popup_check_in.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\custom_popup_check_in.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\splash_theme_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\splash_theme_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\woosim.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\woosim.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\adapter.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\adapter.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\capture.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\capture.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\orderitems_deliver_preview_list.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\orderitems_deliver_preview_list.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\add_stock_inventory.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\add_stock_inventory.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\orderitems_boking.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\orderitems_boking.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\mng_stf_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\mng_stf_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\asset_details.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\asset_details.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\add_stock_inventory_new.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\add_stock_inventory_new.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\competitor_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\competitor_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\fullimage.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\fullimage.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main1.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\activity_main1.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\signature_driver_supervsor.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\signature_driver_supervsor.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\settings.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\settings.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\capture_inventry_layout.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\capture_inventry_layout.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\admin_login.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\admin_login.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\transferin_list_content.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\transferin_list_content.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\custom_popup_print.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\custom_popup_print.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\graph_popup.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\graph_popup.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\direct_invoicing.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\direct_invoicing.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_add_stock.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\item_list_add_stock.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\todaysdashboardnew.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\todaysdashboardnew.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\splashscreentheme.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\splashscreentheme.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\mapview.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\mapview.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\productcatalog.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\productcatalog.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\replace_order_preview_list_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\replace_order_preview_list_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\return_inventory_qty.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\return_inventory_qty.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\productcatalognew.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\productcatalognew.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\consumersurvey.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\consumersurvey.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\preview_header_ar.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\preview_header_ar.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\direct_invoicing_list.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\direct_invoicing_list.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\inventory_cell_ohq.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\inventory_cell_ohq.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\assets_list_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\assets_list_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\eot_popup.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\eot_popup.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\payment_recipt.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\payment_recipt.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\recomendqt.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\recomendqt.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\custom_common_popup.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\custom_common_popup.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\ar_colloection_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\ar_colloection_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\calenderviewxml.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\calenderviewxml.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\ven_diff_qty_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\ven_diff_qty_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\free_delivery_list.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\free_delivery_list.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\option_layout.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\option_layout.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\product_catalog_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\product_catalog_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\preseller_receive_payment.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\preseller_receive_payment.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\my_activities.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\my_activities.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\ar_callistviewcellxml_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\ar_callistviewcellxml_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\listview.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\listview.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\load_request_pager.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\load_request_pager.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\orderitems_boking_parent.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\orderitems_boking_parent.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\todaysdashboard.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\todaysdashboard.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\load_request.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\load_request.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\esignature_order_preview_lpo.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\esignature_order_preview_lpo.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\notification_popup.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\notification_popup.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\help.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\help.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\scan_result_popup.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\scan_result_popup.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\load_request_screen.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\load_request_screen.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\notes.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\notes.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\transferin_list.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\transferin_list.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\capture_damaeged_image.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\capture_damaeged_image.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\inventory_qty.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\inventory_qty.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\orderitems_return_list.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\orderitems_return_list.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\fullimage2.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\fullimage2.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\tasktodo_list_cell_new.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\tasktodo_list_cell_new.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\base.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\base.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\custom_builder.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\custom_builder.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_verify_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\item_list_verify_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\preseller_invoice_list.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\preseller_invoice_list.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\transfer_in_new.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\transfer_in_new.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\captureinventory.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\captureinventory.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\checkin_at_customer.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\checkin_at_customer.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\orderitems_deliver_list.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\orderitems_deliver_list.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\payment_details_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\payment_details_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\search_listcell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\search_listcell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\order_cell_eot.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\order_cell_eot.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\stock_inventory.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\stock_inventory.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\ebs_approved.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\ebs_approved.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\tasktodo.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\tasktodo.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\order_customer_eot.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\order_customer_eot.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\captureshelfphoto.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\captureshelfphoto.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\assetscanlist.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\assetscanlist.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\encode.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\encode.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\enter_barcode_manually.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\enter_barcode_manually.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\transfer_out.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\transfer_out.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\coverflow_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\coverflow_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\competitor_detail_list.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\competitor_detail_list.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\payment_summary.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\payment_summary.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\delivery_agent_order_list.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\delivery_agent_order_list.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\bluetoothfileprinter.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\bluetoothfileprinter.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\assets_request_new.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\assets_request_new.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\delivery_status_list.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\delivery_status_list.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\nopricelist_layout.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\nopricelist_layout.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\stockverification.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\stockverification.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\graphview.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\graphview.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\recommendedorderheader.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\recommendedorderheader.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\lpo_order_details_list.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\lpo_order_details_list.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\cradit_limit_popup.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\cradit_limit_popup.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\scan.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\scan.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\product_detail_content.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\product_detail_content.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\basenew.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\basenew.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\preview_header_replacement.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\preview_header_replacement.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\assets_detail_new.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\assets_detail_new.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\changepassword.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\changepassword.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\request_pager_layout.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\request_pager_layout.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\add_item_list_add_stock.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\add_item_list_add_stock.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\assets_list.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\assets_list.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\foc_product.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\foc_product.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\custom_popup_upcomming_detail_content.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\custom_popup_upcomming_detail_content.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\customer_list.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\customer_list.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\receive_payment_main.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\receive_payment_main.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\custom_popup_language.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\custom_popup_language.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\replacement_order_details_list.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\replacement_order_details_list.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\pager_layout.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\pager_layout.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\checkin_new.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\checkin_new.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\topselling_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\topselling_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\invoice_list_cell_new.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\invoice_list_cell_new.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\orderfulfillment.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\orderfulfillment.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\inventory_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\inventory_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\scan_popup.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\scan_popup.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\callistviewcellxml.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\callistviewcellxml.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\capture_image_content.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\capture_image_content.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\orderfulfillment_list.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\orderfulfillment_list.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\recomendedorder_new.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\recomendedorder_new.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device_activation.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\activity_device_activation.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\unload_title.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\unload_title.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\consumerservey_que_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\consumerservey_que_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\demand_inventory_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\demand_inventory_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\item_load_view_stock.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\item_load_view_stock.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\transfer_in_cell_group.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\transfer_in_cell_group.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\demand_inventory_cell_new.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\demand_inventory_cell_new.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\order_summary.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\order_summary.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\free_delivery_item.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\free_delivery_item.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\tasktodo_list_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\tasktodo_list_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\result_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\result_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\consumersurvey_new.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\consumersurvey_new.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\delivery_status_new.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\delivery_status_new.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\transfer_in.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\transfer_in.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_to_verify_latest.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\item_list_to_verify_latest.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\transfer_out_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\transfer_out_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\additems.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\additems.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\device_list.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\device_list.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\orderitems_deliver_preview.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\orderitems_deliver_preview.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\customer_invoice_cell.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\customer_invoice_cell.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\layout\\main.xml"
+    }
+]

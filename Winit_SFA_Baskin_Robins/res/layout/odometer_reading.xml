@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvLu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbgbg"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:singleLine="true"
+        android:text="Odometer Reading"
+        android:textColor="@color/white"
+        android:textSize="@dimen/customer_text_size"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/llStartDay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:background="@drawable/start"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="110dip" >
+
+        <TextView
+            android:id="@+id/tvStartDay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:text="Start Day"
+            android:textColor="@color/grey"
+            android:textSize="18dip"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip" >
+
+            <TextView
+                android:id="@+id/tvStartDayReading"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="10dip"
+                android:singleLine="true"
+                android:text="Reading"
+                android:textColor="@color/grey"
+                android:textSize="18dip" />
+
+            <EditText
+                android:id="@+id/etStartDayReading"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_weight="1"
+                android:background="@drawable/bdr1"
+                android:gravity="center_vertical"
+                android:hint="0"
+                android:inputType="number"
+                android:maxLength="6"
+                android:orientation="vertical"
+                android:paddingLeft="10dip"
+                android:singleLine="true"
+                android:textColor="@color/grey"
+                android:textSize="18dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tvStartDayTime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="10dip"
+                android:singleLine="true"
+                android:text="Time"
+                android:textColor="@color/grey"
+                android:textSize="18dip" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tvStartDayTimeValuew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/blue"
+                    android:textSize="25dip" />
+
+                <TextView
+                    android:id="@+id/tvStartDayTimeValuewResion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginTop="10dip"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/grey"
+                    android:textSize="18dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llEndDay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:background="@drawable/end"
+        android:orientation="vertical"
+        android:paddingLeft="110dip" >
+
+        <TextView
+            android:id="@+id/tvEndOfDay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:text="End of Day"
+            android:textColor="@color/grey"
+            android:textSize="18dip"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip" >
+
+            <TextView
+                android:id="@+id/tvEndDayReading"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="10dip"
+                android:singleLine="true"
+                android:text="Reading"
+                android:textColor="@color/grey"
+                android:textSize="18dip" />
+
+            <EditText
+                android:id="@+id/etEndDayReading"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_weight="1"
+                android:background="@drawable/bdr1"
+                android:gravity="center_vertical"
+                android:hint="0"
+                android:inputType="number"
+                android:maxLength="6"
+                android:orientation="vertical"
+                android:paddingLeft="10dip"
+                android:singleLine="true"
+                android:textColor="@color/grey"
+                android:textSize="18dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip" >
+
+            <TextView
+                android:id="@+id/tvEndDayTime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="10dip"
+                android:singleLine="true"
+                android:text="Time"
+                android:textColor="@color/grey"
+                android:textSize="18dip" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tvEndDayTimeValuew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/blue"
+                    android:textSize="25dip" />
+
+                <TextView
+                    android:id="@+id/tvEndDayTimeValuewResion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginTop="10dip"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/grey"
+                    android:textSize="18dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dip"
+        android:layout_height="0dip"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/llTotalValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbgbg"
+        android:gravity="center_vertical|right"
+        android:paddingRight="10dip" >
+
+        <TextView
+            android:id="@+id/tvTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:singleLine="true"
+            android:text="Total :"
+            android:textColor="@color/white"
+            android:textSize="18dip" />
+
+        <TextView
+            android:id="@+id/tvtvTotalValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:singleLine="true"
+            android:text="0 Km"
+            android:textColor="@color/white"
+            android:textSize="18dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llReturnSave"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/basefooter"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_base" />
+
+        <Button
+            android:id="@+id/btnFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/check5"
+            android:gravity="center_vertical"
+            android:text="Save "
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

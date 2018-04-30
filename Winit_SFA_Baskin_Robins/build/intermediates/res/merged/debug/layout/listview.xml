@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/dot_seperator"
+        android:dividerHeight="0.5dip"
+        android:fadeScrollbars="true"
+        android:listSelector="@android:color/transparent"
+        android:fadingEdgeLength="0dip" />
+
+    <include layout="@layout/no_data_textview" />
+
+</LinearLayout>

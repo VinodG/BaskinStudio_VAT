@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="tab_text_size">6dip</dimen>
+    <dimen name="customer_text_size">16dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="size5">5dp</dimen>
+    <dimen name="size10">10dp</dimen>
+    <dimen name="size15">15dp</dimen>
+    <dimen name="size140">140dp</dimen>
+    
+    <dimen name="textsize21">21sp</dimen>
+      <dimen name="textsize19">19sp</dimen>
+    
+    
+    <dimen name="margin_5dip">5dip</dimen>
+    <dimen name="margin_10dip">10dip</dimen>
+     <dimen name="margin_20dip">20dip</dimen>
+
+</resources>

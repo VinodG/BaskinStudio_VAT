@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbgbg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvOrdersheetHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:textColor="@color/white"
+            android:textSize="@dimen/customer_text_size">
+        </TextView>
+
+        <ImageView
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:background="@color/white" />
+
+        <Button
+            android:id="@+id/btnStartDay"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/check5"
+            android:paddingRight="7dip"
+            android:text="  Start Day "
+            android:textColor="@color/white"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbg"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvItemList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:textColor="@color/white"
+            android:textSize="17dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sapare"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tvdate"
+            android:layout_width="fill_parent"
+            android:layout_height="35dip"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="10dip"
+            android:text="Date :"
+            android:textColor="@color/black"
+            android:textSize="14dip" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvDateValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:background="@drawable/spinner_disabled_holo_light"
+            android:gravity="center_vertical"
+            android:hint="Select Date"
+            android:paddingLeft="5dip"
+            android:paddingRight="30dip"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llTopLayout"
+        android:layout_margin="5dip"
+        android:background="@drawable/round_transparent_bg"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="65dip"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Username"
+                android:textColor="@color/blue_dark"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="10dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=":"
+                android:textColor="@color/blue_dark"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvUsername"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="Baskin"
+                android:textColor="@color/blue_dark"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="65dip"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Date"
+                android:textColor="@color/blue_dark"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="10dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=":"
+                android:textColor="@color/blue_dark"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="Date"
+                android:textColor="@color/blue_dark" />
+
+            <TextView
+                android:id="@+id/tvVehicleCode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="VehicleCode"
+                android:textColor="@color/blue_dark"
+                android:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout 
+            android:id="@+id/llSelectWereHouse"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:visibility="gone"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="Select TRX Method :"
+                android:textColor="@color/blue_dark" />
+            <TextView
+                android:id="@+id/tvSelectWereHouse"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:hint="Select TRX Method"
+                android:textColor="@color/blue_dark"
+                android:background="@drawable/spinner_disabled_holo_light" />
+     </LinearLayout>
+     <LinearLayout 
+            android:id="@+id/llSelectVehicle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:visibility="gone"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip">
+            <TextView
+                android:id="@+id/tvWareHouseTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="Select Warehouse:"
+                android:textColor="@color/blue_dark" />
+            <TextView
+                android:id="@+id/tvSelectVehicle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:hint="Select Warehouse"
+                android:textColor="@color/blue_dark"
+                android:background="@drawable/spinner_disabled_holo_light" />
+     </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llItemHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:background="@drawable/smallbg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvItemCode"
+            android:layout_width="85dip"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="2dip"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dip"
+            android:singleLine="true"
+            android:text="Item Code"
+            android:textColor="@color/white"
+            android:textSize="15dip" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight=".9"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Description"
+            android:textColor="@color/white"
+            android:textSize="15dip" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <TextView
+            android:id="@+id/tvUOM"
+            android:layout_width="50dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="Cases"
+            android:textColor="@color/white"
+            android:textSize="15dip" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <TextView
+            android:id="@+id/tvQty"
+            android:layout_width="50dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="QTY"
+            android:textColor="@color/white"
+            android:textSize="15dip" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <TextView
+            android:id="@+id/tvTotalQt"
+            android:layout_width="52dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="WH QTY"
+            android:textColor="@color/white"
+            android:textSize="15dip" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/ivCheckAllItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_weight="0"
+            android:src="@drawable/check_normal"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNoItemFound"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="10dip"
+        android:text="Please tap on Load Req button to add items for load request."
+        android:textColor="@color/list_middle"
+        android:textSize="20dip"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/svLoadStock"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/llordersheet"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+    
+
+    <LinearLayout
+        android:id="@+id/llOrderSheetTotal"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_weight="0"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/llBottomBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/basefooter"
+                android:gravity="center|right"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/sep_base" />
+
+                <Button
+                    android:id="@+id/btnOrdersheetReport"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:drawableRight="@drawable/sep_base"
+                    android:text="Report "
+                    android:textColor="@color/white"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btnLoadReq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@color/transparent"
+                    android:drawableLeft="@drawable/add"
+                    android:drawableRight="@drawable/sep_base"
+                    android:text="Load Req "
+                    android:textColor="@color/white"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnUnloadReq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@color/transparent"
+                    android:drawableLeft="@drawable/add"
+                    android:drawableRight="@drawable/sep_base"
+                    android:text="Unload Req "
+                    android:textColor="@color/white"
+                    android:visibility="gone" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@color/transparent"
+                    android:drawableRight="@drawable/sep_base" />
+
+                <Button
+                    android:id="@+id/btnAdd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@color/transparent"
+                    android:drawableLeft="@drawable/add"
+                    android:drawableRight="@drawable/sep_base"
+                    android:text="  Add Item  "
+                    android:textColor="@color/white"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btnOrdersheetVerify"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@color/transparent"
+                    android:drawableLeft="@drawable/check5"
+                    android:text="Verify  "
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

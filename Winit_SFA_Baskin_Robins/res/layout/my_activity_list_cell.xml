@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:background="@drawable/body_bg"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_listtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Capture Self Photo"
+                android:textColor="#4F4E4E"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/divider_list" />
+
+            <ImageView
+                android:id="@+id/iv_capturepic"
+                android:layout_width="wrap_content"
+                android:layout_height="120dip"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/tv_activitydesc"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:visibility="gone" 
+                android:text="Consumer behaviour survey for beauty products under brand building strategy"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/divider_list" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+				<LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+                    <TextView
+	                    android:id="@+id/tv_CustomerName"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="10dp"
+	                    android:layout_marginRight="10dp"
+	                    android:layout_marginTop="5dip"
+	                    android:text="Al Heeli Tower Electronics"
+	                    android:textColor="@color/black" 
+	                    android:textSize="16dip"/>
+                    
+                    <LinearLayout 
+                        android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:gravity="center_vertical"
+	                    android:layout_marginLeft="10dip">
+	                    <ImageView 
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:background="@drawable/calender"/>
+                    <TextView
+	                    android:id="@+id/tv_Date"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="10dp"
+	                    android:layout_marginRight="10dp"
+	                    android:text="13th, Apr 2014"
+	                    android:textColor="#646464" />
+                    </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="5dip" >
+	                <TextView
+	                    android:id="@+id/tv_listdesc"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="10dp"
+	                    android:layout_marginRight="10dp"
+	                    android:text="Admin"
+	                    android:textColor="#646464" />
+	
+	                    <ImageView
+	                        android:id="@+id/ivSttar1"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:layout_margin="5dip"
+	                        android:background="@drawable/star2" />
+	
+	                    <ImageView
+	                        android:id="@+id/ivSttar2"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:layout_margin="5dip"
+	                        android:background="@drawable/star2" />
+	
+	                    <ImageView
+	                        android:id="@+id/ivSttar3"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:layout_margin="5dip"
+	                        android:background="@drawable/star2" />
+	
+	                    <ImageView
+	                        android:id="@+id/ivSttar4"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:layout_margin="5dip"
+	                        android:background="@drawable/star2" />
+	
+	                    <ImageView
+	                        android:id="@+id/ivSttar5"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:layout_margin="5dip"
+	                        android:background="@drawable/star2" />
+	                </LinearLayout>
+				</LinearLayout>
+                <ImageView
+                    android:id="@+id/ivIsVerified"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:background="@drawable/verified" 
+                    android:layout_gravity="bottom"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\color\\wallet_primary_text_holo_light.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\color\\wallet_primary_text_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_dark.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\color\\common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_light.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\color\\common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\color\\wallet_secondary_text_holo_dark.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\color\\wallet_secondary_text_holo_dark.xml"
+    }
+]

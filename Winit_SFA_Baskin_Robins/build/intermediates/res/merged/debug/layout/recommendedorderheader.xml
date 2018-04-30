@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvLu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbgbg"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/customer_text_size"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvCI"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:background="@drawable/smallbg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="@string/Capture_Inventory"
+        android:textColor="@color/white"
+        android:textSize="18dip" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvNoOrder"
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/No_previous_order"
+        android:textColor="@color/List_header2"
+        android:textSize="18dip"
+        android:visibility="gone" />
+
+</LinearLayout>

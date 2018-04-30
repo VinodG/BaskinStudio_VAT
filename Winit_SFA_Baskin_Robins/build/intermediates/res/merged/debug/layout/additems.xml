@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:isScrollContainer="false"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvARHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dip"
+        android:orientation="vertical"
+        android:text="Add Items"
+        android:textColor="#02525B"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/popupsp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popsearch"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edtSelectcatagory"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/arrow"
+            android:gravity="center_vertical"
+            android:hint="Select category"
+            android:imeOptions="actionSearch|actionDone"
+            android:paddingBottom="2dip"
+            android:paddingLeft="12dip"
+            android:paddingRight="12dip"
+            android:paddingTop="2dip"
+            android:singleLine="true"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/edtSearchItem"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/searchicon"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:hint="Search item name"
+            android:imeOptions="actionSearch|actionDone"
+            android:paddingBottom="2dip"
+            android:paddingLeft="12dip"
+            android:paddingRight="12dip"
+            android:paddingTop="2dip"
+            android:singleLine="true"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/smallbg" >
+
+        <TextView
+            android:id="@+id/tvPromoCodeHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:text="@string/Item_Code"
+            android:textColor="@color/white"
+            android:textSize="16dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvPromoDescriptionHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingRight="7dip"
+            android:text="Description"
+            android:textColor="@color/white"
+            android:textSize="16dip"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/llAddItemsLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tvNodataAvailable"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="@string/No_matching_record_found"
+        android:textColor="@color/list_title"
+        android:textSize="16dip"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/llAddGRVBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnAdditem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/empty_rounded_button_click"
+            android:text="Add"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCancelitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/empty_rounded_button_click"
+            android:text="Cancel"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!--
+             <Button
+            android:id="@+id/btnAddGRVFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_empty_click"
+            android:drawableLeft="@drawable/seperator"
+            android:gravity="center"
+            android:paddingRight="1dip"
+            android:text="@string/Submit"
+            android:textColor="@color/white" />
+        -->
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="preview_textsize">14dip</dimen>
+    <dimen name="text_size_normal">12sp</dimen>
+    <dimen name="text_size_small">10sp</dimen>
+    <dimen name="text_size_title">9dip</dimen>
+    <dimen name="text_size_very_large_19">19sp</dimen>
+    <dimen name="uom_text_size">14dip</dimen>
+    <dimen name="width_cases">30dip</dimen>
+    <dimen name="width_for_pd">63dip</dimen>
+    <dimen name="width_tax">35dip</dimen>
+    <dimen name="width_title">46dip</dimen>
+    <dimen name="width_total_pr">42dip</dimen>
+    <dimen name="width_total_pr1">48dip</dimen>
+    <dimen name="width_total_pr2">55dip</dimen>
+</resources>

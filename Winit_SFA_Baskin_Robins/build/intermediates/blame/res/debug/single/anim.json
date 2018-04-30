@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\alpha_reverse.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\alpha_reverse.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_left.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\push_up_out.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\push_up_out.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\hold.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\hold.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\push_up_out1.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\push_up_out1.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\swip_left.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\swip_left.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\alpha.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\alpha.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\out.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\out.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\swip_right.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\swip_right.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\slide_left1.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\slide_left1.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\slide_right.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\slide_right.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_left_bodyone.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\slide_in_left_bodyone.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\push_right_out.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\push_right_out.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\push_left_in.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\push_left_in.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_left.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\push_up_in.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\push_up_in.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\slide_left.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\slide_left.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\push_up_in1.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\push_up_in1.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\layout_bottom_to_top_slide.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\layout_bottom_to_top_slide.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_left_bodyone.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\slide_out_left_bodyone.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\slide_right1.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\slide_right1.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\push_left_out.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\push_left_out.xml"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\debug\\anim\\rotate_indefinitely.xml",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\anim\\rotate_indefinitely.xml"
+    }
+]

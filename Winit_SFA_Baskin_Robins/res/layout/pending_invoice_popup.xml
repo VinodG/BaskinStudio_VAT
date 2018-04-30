@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round_transparent_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvTitlePopup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Outstanding Invoices"
+            android:textColor="@color/List_header2"
+            android:textSize="16dip"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/llHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dip"
+            android:layout_marginRight="1dip"
+            android:background="@color/header_color"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip" >
+
+            <TextView
+                android:id="@+id/tvUnPaid"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="left|center_vertical"
+                android:padding="3dip"
+                android:text="Invoices"
+                android:textColor="@color/white"
+                android:textSize="13dip" />
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="match_parent"
+                android:background="#E3E3E3" />
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1.2"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="Invoice Date"
+                android:textColor="@color/white"
+                android:textSize="13dip" />
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="match_parent"
+                android:background="#E3E3E3" />
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="3dip" >
+
+                <TextView
+                    android:id="@+id/tvAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Amount"
+                    android:textColor="@color/white"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/tvCurr1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="9dip" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="match_parent"
+                android:background="#E3E3E3" />
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="3dip" >
+
+                <TextView
+                    android:id="@+id/tvBalance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Balance"
+                    android:textColor="@color/white"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/tvCurr2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="9dip" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="match_parent"
+                android:background="#E3E3E3"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvDueDate"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1.2"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="Due Date"
+                android:textColor="@color/white"
+                android:textSize="13dip"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvNoData"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="No pending invoices available."
+            android:textColor="@color/black"
+            android:textSize="13dip" />
+
+        <ListView
+            android:id="@+id/lvPendingInvoices"
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:divider="@drawable/dot_seperator"
+            android:fadingEdge="none" />
+
+        <TextView
+            android:id="@+id/tvMessagePopup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip"
+            android:text="Do you like to continue taking the Order ?"
+            android:textColor="@color/black"
+            android:textSize="13dip" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/header_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:padding="5dip" >
+
+            <Button
+                android:id="@+id/btnYesPopup"
+                android:layout_width="wrap_content"
+                android:layout_height="35dip"
+                android:background="@drawable/empty_rounded_button_click"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:text="@string/Yes"
+                android:textColor="@color/white"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnNoPopup"
+                android:layout_width="wrap_content"
+                android:layout_height="35dip"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/empty_rounded_button_click"
+                android:text="@string/No"
+                android:textColor="@color/white"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

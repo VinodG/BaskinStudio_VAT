@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+     <TextView
+         android:id="@+id/tvCaptureDamageTitle"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:background="@drawable/topbgbg"
+         android:gravity="center_vertical"
+         android:paddingLeft="10dip"
+         android:text="Jilani"
+         android:textColor="@color/white"
+         android:textSize="@dimen/customer_text_size">
+     </TextView>
+
+    <GridView 
+        android:id="@+id/gvImages"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:numColumns="3">
+    </GridView>
+    
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/basefooter"
+        android:gravity="right|bottom" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <Button
+            android:id="@+id/btnTakeNew"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/icon2"
+            android:text="Take New Picture "
+            android:textColor="@color/white"
+            android:drawableRight="@drawable/sep_new" />
+        
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/cont"
+            android:text="Continue "
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>

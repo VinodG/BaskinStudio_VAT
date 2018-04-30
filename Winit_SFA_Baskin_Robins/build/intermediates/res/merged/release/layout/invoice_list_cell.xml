@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:background="@drawable/cell_bg"
+    android:gravity="center_vertical"
+    android:paddingBottom="3dip"
+    android:paddingTop="2dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="10dip" >
+
+        <TextView
+            android:id="@+id/tvProductKey"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/list_title"
+            android:textSize="14dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvVendorName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/grey"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etInvoice1"
+        android:layout_width="71dip"
+        android:layout_height="fill_parent"
+        android:background="@drawable/unit_bg"
+        android:gravity="center"
+        android:imeOptions="actionNext"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:nextFocusDown="@+id/etInvoice2"
+        android:singleLine="true"
+        android:text="05"
+        android:textColor="@color/list_title"
+        android:textSize="16dip"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etInvoice2"
+        android:layout_width="70dip"
+        android:layout_height="fill_parent"
+        android:background="@drawable/unit_bg"
+        android:gravity="center"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:maxLength="5"
+        android:singleLine="true"
+        android:text="00"
+        android:textColor="@color/list_title"
+        android:textSize="16dip"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/ivAcceptCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dip"
+        android:layout_weight="0"
+        android:visibility="gone" />
+    
+     <ImageView
+        android:id="@+id/ivAcceptCheckItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dip"
+        android:layout_weight="0"
+        android:src="@drawable/check_normal"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:background="@drawable/searchbg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/etSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/topsearch"
+            android:drawablePadding="5dip"
+            android:drawableRight="@drawable/searchicon"
+            android:gravity="center_vertical"
+            android:hint="Search by itemcode/description"
+            android:imeOptions="actionDone"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="13dip" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:background="@drawable/smallbg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="2dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dip"
+            android:singleLine="true"
+            android:text="Item Code &amp; Description"
+            android:textColor="@color/white"
+            android:textSize="15dip" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <TextView
+            android:layout_width="70dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="UOM"
+            android:textColor="@color/white"
+            android:textSize="15dip" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <TextView
+            android:layout_width="70dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="Qty."
+            android:textColor="@color/white"
+            android:textSize="15dip" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNoItemFound"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="10dip"
+        android:text="@string/No_matching_record_found"
+        android:textColor="@color/list_middle"
+        android:textSize="20dip"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lvLoadStock"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:cacheColorHint="@null"
+        android:dividerHeight="0dip"
+        android:fadingEdge="none"
+        android:scrollbars="none" />
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvAssetRequestTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Asset Request"
+        android:textColor="#DB389A"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/dot_seperator" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <TextView
+            android:id="@+id/tvSelectDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:gravity="center_vertical|left"
+            android:hint="Select date"
+            android:paddingLeft="5dip"
+            android:paddingRight="3dip"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/list_middle"
+            android:textSize="14dip" />
+
+        <TextView
+            android:id="@+id/tvSelectAssets"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/spinner_disabled_holo_light"
+            android:gravity="center_vertical"
+            android:hint="Select Asset"
+            android:paddingLeft="5dip"
+            android:paddingRight="28dip"
+            android:singleLine="true"
+            android:textColor="@color/list_middle"
+            android:textSize="14dip" />
+
+        <EditText
+            android:id="@+id/etQuantity"
+            android:layout_width="fill_parent"
+            android:layout_height="25dip"
+            android:background="@drawable/input_new"
+            android:gravity="center_vertical|left"
+            android:hint="Enter quantity"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:paddingLeft="5dip"
+            android:singleLine="true"
+            android:text="1"
+            android:textColor="@color/list_middle"
+            android:textSize="14dip" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/basefooter"
+        android:gravity="right|bottom" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/transparent"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</LinearLayout>

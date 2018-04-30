@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg4"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/topbgbg"
+        android:gravity="center_vertical"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/tvHeadTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="Scan Freezer"
+            android:textColor="@color/white"
+            android:textSize="@dimen/customer_text_size"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvOther"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Scan the freezer before capturing the inventory."
+        android:textColor="@color/list_title"
+        android:textSize="18dip" />
+
+    <ImageView
+        android:id="@+id/ivScanFreezer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/scan_bottom" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/basefooter"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_base" />
+
+        <Button
+            android:id="@+id/btnStartSale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/icon5"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Start Sale "
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

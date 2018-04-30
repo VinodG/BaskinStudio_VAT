@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dip"
+    android:paddingRight="10dip"
+    android:paddingTop="10dip" >
+
+    <RelativeLayout
+        android:id="@+id/rlMainLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ProgressBar
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="65dip" />
+
+        <ImageView
+            android:id="@+id/ivProductImage"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <TextView
+            android:id="@+id/tvProductDescription"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/bottom"
+            android:gravity="center"
+            android:maxLines="2"
+            android:paddingLeft="3dip"
+            android:text="description"
+            android:textColor="@android:color/white"
+            android:textSize="14dip" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/ivRightArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dip"
+            android:src="@drawable/left_arrow" />
+
+        <ImageView
+            android:id="@+id/ivLeftArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="10dip"
+            android:src="@drawable/right_arrow" />
+
+        <LinearLayout
+            android:id="@+id/llBottomOptions"
+            android:layout_width="fill_parent"
+            android:layout_height="55dip"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bottom"
+            android:gravity="center_vertical" >
+
+            <ImageButton
+                android:id="@+id/btnfacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:padding="2dip"
+                android:src="@drawable/facebook" />
+
+            <ImageButton
+                android:id="@+id/btnTwitter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:padding="2dip"
+                android:src="@drawable/twitter" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tvOnlineOrder"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvProductDescription"
+                        android:layout_marginLeft="2dip"
+                        android:layout_toLeftOf="@+id/btnMail"
+                        android:maxLines="2"
+                        android:text="Order at"
+                        android:textColor="@android:color/white"
+                        android:textSize="14dip" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tvOnlineOrderValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvProductDescription"
+                        android:layout_marginLeft="2dip"
+                        android:layout_toLeftOf="@+id/btnMail"
+                        android:maxLines="2"
+                        android:padding="5dip"
+                        android:singleLine="true"
+                        android:text="Online Order Link"
+                        android:textColor="@android:color/white"
+                        android:textSize="14dip" >
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tvCallCenter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvProductDescription"
+                        android:layout_marginLeft="2dip"
+                        android:layout_toLeftOf="@+id/btnMail"
+                        android:maxLines="2"
+                        android:text="Call Us"
+                        android:textColor="@android:color/white"
+                        android:textSize="14dip" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tvCallCenterNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvProductDescription"
+                        android:layout_marginLeft="5dip"
+                        android:layout_toLeftOf="@+id/btnMail"
+                        android:maxLines="2"
+                        android:padding="5dip"
+                        android:text="Callcenter Name"
+                        android:textColor="@android:color/white"
+                        android:textSize="14dip" >
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

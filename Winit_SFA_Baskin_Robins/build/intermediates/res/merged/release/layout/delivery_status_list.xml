@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg4"
+    android:isScrollContainer="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llTitleManageStaff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbgbg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tvTitleofStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:text="Order Summary"
+            android:textColor="@color/white"
+            android:textSize="@dimen/customer_text_size"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+    
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/smallbg"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/tvDeliveryStatusDate"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:paddingLeft="10dip"
+            android:gravity="center_vertical"
+            android:text="Journey Date"
+            android:textColor="@color/white"
+            android:textSize="17dip" />
+
+        <Button
+            android:id="@+id/btnCalDelivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cal_btn_click" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNoOrderFound"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="10dip"
+        android:text="No order available."
+        android:textColor="@color/list_middle"
+        android:textSize="20dip"
+        android:visibility="gone"
+         />
+
+    <ListView
+        android:id="@+id/lvDeliveryStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:fadeScrollbars="true"
+        android:fadingEdgeLength="0dip" >
+    </ListView>
+    
+</LinearLayout>

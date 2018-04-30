@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="45dip"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingTop="2dip" >
+
+    <TextView
+        android:id="@+id/tvSelect_Pre_sold_OrderValue"
+        android:layout_width="115dip"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Total Due "
+        android:textColor="@color/list_middle" />
+
+    <TextView
+        android:id="@+id/tvInvoiceType"
+        android:layout_width="95dip"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Total Due "
+        android:textColor="@color/list_middle" />
+
+    <TextView
+        android:id="@+id/tvSelectAmount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:text="DB23SO27"
+        android:textColor="@color/list_middle" />
+
+    <EditText
+        android:id="@+id/etAmount"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/inputbgbg"
+        android:hint="0"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal"
+        android:maxLength="10"
+        android:paddingLeft="3dip"
+        android:textColor="@color/list_time"
+        android:textSize="16dip"
+        android:visibility="gone" />
+
+</LinearLayout>

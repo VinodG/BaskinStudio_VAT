@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvInvoiceNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            android:singleLine="true"
+            android:text="@string/ItemInvoiceNum"
+            android:textColor="@color/list_title"
+            android:textSize="15dip" />
+
+        <TextView
+            android:id="@+id/tvAmountCell"
+            android:layout_width="70dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="@string/balanceNumber"
+            android:textColor="@color/list_title"
+            android:textSize="15dip" />
+
+        <TextView
+            android:id="@+id/tvPaidAmount"
+            android:layout_width="71dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:paddingRight="7dip"
+            android:text="@string/paidAmount"
+            android:textColor="@color/list_title"
+            android:textSize="15dip" />
+    </LinearLayout>
+    
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvPaymentTypeTitle"
+            android:layout_width="90dip"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            android:text="Payment type:"
+            android:textColor="@color/list_title"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/tvPaymentType"
+            android:layout_width="fill_parent"
+            android:gravity="center_vertical|left"
+            android:layout_height="wrap_content"
+            android:text="@string/balanceNumber"
+            android:textColor="@color/list_title"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+</LinearLayout>

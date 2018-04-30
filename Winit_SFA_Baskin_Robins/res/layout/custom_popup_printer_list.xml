@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="7dip"
+    android:layout_marginRight="7dip"
+    android:background="@drawable/round_transparent_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvTitlePopup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_header"
+        android:gravity="center"
+        android:text="Select Printer"
+        android:textColor="@color/white"
+        android:textSize="17dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMaestrosPrinter"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textSize="17dip"
+        android:layout_margin="10dip"
+        android:text="Maestros Printer"
+        android:drawableRight="@drawable/arro"/>
+    <ImageView 
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/sapare"/>
+     <TextView
+        android:id="@+id/tvMobilePrinter"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textSize="17dip"
+        android:layout_margin="10dip"
+        android:text="Mobile Printer"
+        android:drawableRight="@drawable/arro"/>
+</LinearLayout>

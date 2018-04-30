@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbgbg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvPreviewHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="10dip"
+            android:text="Payment Summary"
+            android:textColor="@color/white"
+            android:textSize="@dimen/customer_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvPreviewHeadDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:paddingLeft="10dip"
+            android:text="Payment Date"
+            android:textColor="@color/white"
+            android:textSize="@dimen/customer_text_size"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivDateSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/cal2"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNoPayment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="No payments available."
+        android:textColor="@color/list_title"
+        android:textSize="17dip"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <com.winit.baskirobin.salesman.viewpager.extensions.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:background="@color/white" />
+
+	    <android.support.v4.view.ViewPager
+	        android:id="@+id/pager"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dip"
+	        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tvTotalCollection"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:background="@drawable/smallbg"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:text="Total Collection : "
+        android:textColor="@color/white"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:layout_weight="0" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0"
+        android:background="@drawable/basefooter"
+        android:gravity="right|center_vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_base" />
+
+        <Button
+            android:id="@+id/btnFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/check5"
+            android:drawableRight="@drawable/sep_base"
+            android:gravity="center_vertical"
+            android:text="Finish  "
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnPrint_Summarry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/print"
+            android:drawableRight="@drawable/sep_base"
+            android:gravity="center_vertical"
+            android:text="Print Summary"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/cont"
+            android:drawableRight="@drawable/sep_base"
+            android:text="Continue "
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnSave_as_Draft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/save_draft"
+            android:drawableRight="@drawable/sep_base"
+            android:text="Save as Draft "
+            android:textColor="@color/white"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

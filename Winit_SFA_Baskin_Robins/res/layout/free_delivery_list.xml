@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvListViewHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbgbg"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dip"
+        android:singleLine="true"
+        android:text="Free Delivery"
+        android:textColor="@color/white"
+        android:textSize="@dimen/customer_text_size"/>
+
+    <TextView
+        android:id="@+id/tvCustomerName"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:background="@drawable/smallbg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:textColor="@color/white"
+        android:textSize="18dip" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvNoRecorFound"
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:gravity="center"
+        android:text="@string/No_matching_record_found"
+        android:textColor="@color/List_header2"
+        android:textSize="18dip"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lvCustomerList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/basefooter"
+        android:gravity="right" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <Button
+            android:id="@+id/btnAddItems"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/add"
+            android:text="  Add Items  "
+            android:textColor="@color/white"
+            android:visibility="visible" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/icon4"
+            android:text="  Save  "
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

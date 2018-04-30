@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvLu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbgbg"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/customer_text_size"
+        android:textStyle="bold" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:background="@drawable/smallbg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvOrderPreviewHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:singleLine="true"
+            android:text="@string/Preview_Order"
+            android:textColor="@color/white"
+            android:textSize="18dip"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvlanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:singleLine="true"
+            android:text="English"
+            android:textColor="@color/white"
+            android:textSize="18dip"
+            android:textStyle="bold" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/ivArowRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/arro" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvPreviewText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:text="Note: This is not the original invoice, it is the preview of invoice."
+        android:textColor="@color/list_middle"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/llOrderPreviewMidle"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llOrderPreviewBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llLayoutDiscountAndTotal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tvDeliveryDiscount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="@string/Discount_if_any_inpercentage"
+                android:textColor="@color/list_middle" />
+
+            <EditText
+                android:id="@+id/edtDeliverydiscount"
+                android:layout_width="wrap_content"
+                android:layout_height="25dip"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/smalltextinputbg"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:text="0"
+                android:textColor="@color/list_middle"
+                android:textSize="14dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvDeliveryAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="@string/Total_value"
+                android:textColor="@color/list_middle" />
+
+            <EditText
+                android:id="@+id/edtDeliveryTotalamt"
+                android:layout_width="wrap_content"
+                android:layout_height="25dip"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/smalltextinputbg"
+                android:gravity="center"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:text="0"
+                android:textColor="@color/list_middle"
+                android:textSize="14dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llNxt"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/basefooter"
+        android:gravity="right"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btnNxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_empty_click"
+            android:drawableLeft="@drawable/seperator"
+            android:gravity="center"
+            android:paddingRight="1dip"
+            android:text="@string/Next"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llPrintSalesLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/basefooter"
+        android:gravity="center_vertical|right" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_base" />
+
+        <Button
+            android:id="@+id/btnPrintSalesOrderMerchant"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="2dp"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/print"
+            android:gravity="center"
+            android:text="@string/Print_Merchant_Copy"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_base" />
+
+        <Button
+            android:id="@+id/btnPrintSalesOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/print"
+            android:gravity="center"
+            android:text="@string/Print_Customer_Copy"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_base" />
+        
+        <Button
+            android:id="@+id/btnRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:text="Refresh Hold Order"
+            android:textColor="@color/white" 
+            android:visibility="gone"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_base" />
+
+        <Button
+            android:id="@+id/btnOrderPreviewFinalize"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/check5"
+            android:gravity="center"
+            android:text="Finalize "
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_base" />
+
+        <Button
+            android:id="@+id/btnOrderPreviewContinue"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/cont"
+            android:gravity="center"
+            android:text="Continue "
+            android:textColor="@color/white"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

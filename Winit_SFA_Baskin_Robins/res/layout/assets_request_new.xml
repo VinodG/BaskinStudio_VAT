@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvAssetRequestTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Asset Request"
+        android:textColor="#DB389A"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/dot_seperator" />
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+         android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         >
+         
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Asset Name"
+            android:textColor="@color/list_middle"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp"/>
+        
+        <EditText
+            android:id="@+id/etAssetName"
+            android:layout_width="fill_parent"
+            android:layout_height="25dip"
+            android:background="@drawable/input_new"
+            android:gravity="center_vertical|left"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:paddingLeft="5dip"
+            android:singleLine="true"
+            android:hint="Enter Asset Name"
+            android:textColor="@color/list_middle"
+            android:textSize="14dip"
+            android:layout_marginBottom="20dp" />
+        
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Asset Category Level 1"
+            android:textColor="@color/list_middle"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/tvSelectAssetsLevel1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/spinner_disabled_holo_light"
+            android:gravity="center_vertical"
+            android:hint="Select Asset Category Level 1"
+            android:paddingLeft="5dip"
+            android:paddingRight="28dip"
+            android:singleLine="true"
+            android:textColor="@color/list_middle"
+            android:textSize="14dip" />
+        
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Asset Category Level 2"
+            android:textColor="@color/list_middle"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp"/>
+        
+        <TextView
+            android:id="@+id/tvSelectAssetsLevel2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/spinner_disabled_holo_light"
+            android:gravity="center_vertical"
+            android:hint="Select Asset Category Level 2"
+            android:paddingLeft="5dip"
+            android:paddingRight="28dip"
+            android:singleLine="true"
+            android:textColor="@color/list_middle"
+            android:textSize="14dip" />
+        
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Asset Category Level 3"
+            android:textColor="@color/list_middle"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:id="@+id/tvSelectAssetsLevel3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/spinner_disabled_holo_light"
+            android:gravity="center_vertical"
+            android:hint="Select Asset Category Level 3"
+            android:paddingLeft="5dip"
+            android:paddingRight="28dip"
+            android:singleLine="true"
+            android:textColor="@color/list_middle"
+            android:textSize="14dip" />
+        
+        
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Asset Category Level 4"
+            android:textColor="@color/list_middle"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:id="@+id/tvSelectAssetsLevel4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/spinner_disabled_holo_light"
+            android:gravity="center_vertical"
+            android:hint="Select Asset Category Level 4"
+            android:paddingLeft="5dip"
+            android:paddingRight="28dip"
+            android:singleLine="true"
+            android:textColor="@color/list_middle"
+            android:textSize="14dip" />
+        
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Asset Category Level 5"
+            android:textColor="@color/list_middle"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:id="@+id/tvSelectAssetsLevel5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/spinner_disabled_holo_light"
+            android:gravity="center_vertical"
+            android:hint="Select Asset Category Level 5"
+            android:paddingLeft="5dip"
+            android:paddingRight="28dip"
+            android:singleLine="true"
+            android:textColor="@color/list_middle"
+            android:textSize="14dip" />
+
+        
+    </LinearLayout>
+</ScrollView>
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/basefooter"
+        android:gravity="right|bottom" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_new" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/transparent"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</LinearLayout>

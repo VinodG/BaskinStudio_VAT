@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\libs\hsm-android-print.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="bd86769f5260c1e31213023fd87e980497d6f247">
+        <dex dex="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\build\intermediates\pre-dexed\release\hsm-android-print_9989d65f5d089e8a7bb735926148457fb81c55a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\libs\zing_api_barcodescan.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f3590b450ce4f22137e68f55c2b79d0e1232a160">
+        <dex dex="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\build\intermediates\pre-dexed\release\zing_api_barcodescan_17414ae8979de0e636a213f57e7e8d31965a2cfd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\libs\gson-1.7.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7291c9de7f574b15502f73f0ac2ae6d3af36c751">
+        <dex dex="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\build\intermediates\pre-dexed\release\gson-1.7.1_17f044dd52a7d0d63cb426860521178f24d12394.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\libs\android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\build\intermediates\pre-dexed\release\android-support-v4_3105209fc5e3db4caab330f964818bbb9cb2b196.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\libs\Citizen_Android_1063.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="533193f137f1ac0c5bb2ea9e9fc350a78f6cb3e7">
+        <dex dex="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\build\intermediates\pre-dexed\release\Citizen_Android_1063_790c84e6fd09560b6dffb525cc3dfae543ae144c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\libs\httpcore-4.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2d503272bf0a8b5f92d64db78b4ba9abbaccc6fd">
+        <dex dex="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\build\intermediates\pre-dexed\release\httpcore-4.2.1_fca3743f0623e71443972d90d4e45f4ccfd5fdaa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\libs\httpclient-4.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="64849efdc10ea21eed3be7cc19ea7ec5af186776">
+        <dex dex="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\build\intermediates\pre-dexed\release\httpclient-4.2.1_a7114fe80800d7bf3ae3efe73bdc1f42abcf2d84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\libs\afreechart-0.0.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a620cc3b8d3e12d9e7b0ce3435254279390fd4ef">
+        <dex dex="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\build\intermediates\pre-dexed\release\afreechart-0.0.4_3068b662dd8a8b00d9762048749d45b19bce352d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\libs\httpmime-4.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c7349b04e5d76895fdfc0f38bdc0699e5f6fef5a">
+        <dex dex="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\build\intermediates\pre-dexed\release\httpmime-4.2.1_e73e2f1e53dddec8b123031397bf0df7ada842eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\libs\iarabic682x.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2598c42ee2af32383070d920449ac17b1bb07274">
+        <dex dex="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\build\intermediates\pre-dexed\release\iarabic682x_6646ee236c0fdf62bd7b522453ecbceac385a726.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\build\intermediates\exploded-aar\BaskinStudio_VAT\google-play-services_lib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d968d5064719102a99a822f94477ae57c4f76ed8">
+        <dex dex="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\build\intermediates\pre-dexed\release\BaskinStudio_VAT-google-play-services_lib-unspecified_f867a45786cbf2801fe449c49a2b0cbb8740ce90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\libs\CSJPOSLib_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="cbd1bda93d5e29e586d0aacaba6c3b32c85ab858">
+        <dex dex="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\build\intermediates\pre-dexed\release\CSJPOSLib_Android_714892c72f1c884ffe754f55bc9eb963f25d6935.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\libs\gcm.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c62336e408d6dc3998013f3a4419f1895ad61b6b">
+        <dex dex="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\build\intermediates\pre-dexed\release\gcm_48cd634ecc2ba39d273965fecc11e3cd41028d23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\libs\woosimprinter_bt.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="89d570f5205272842e8f6e9de429beb91fb5a2ab">
+        <dex dex="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\build\intermediates\pre-dexed\release\woosimprinter_bt_695d306fba906677a215fd1bcbc6c42ca07683ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\libs\httpclient-cache-4.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="027926125726981c5653bc31007deb115f5d9fba">
+        <dex dex="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\build\intermediates\pre-dexed\release\httpclient-cache-4.2.1_75a922e6fe228765393a04e31074ff90574715cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\build\intermediates\exploded-aar\BaskinStudio_VAT\google-play-services_lib\unspecified\jars\libs\google-play-services.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0a992029994a21c6bcc6a0a00997609d56667aec">
+        <dex dex="D:\Baskin 20-03-2018\BaskinStudio_VAT\Winit_SFA_Baskin_Robins\build\intermediates\pre-dexed\release\google-play-services_84a0d3fc247a3a950909c67419b055b208ca6810.jar" />
+    </item>
+
+</items>

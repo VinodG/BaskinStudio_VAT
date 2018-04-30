@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="180dip"
+        android:layout_height="100dip"
+        android:background="@drawable/popup"
+        android:padding="10dip"
+        android:orientation="vertical">
+        <TextView
+	        android:id="@+id/tvUndeliveredQT"
+	        android:layout_width="wrap_content"
+	        android:layout_height="35dip"
+	        android:layout_gravity="center_vertical"
+	        android:gravity="center_vertical"
+	        android:textColor="@color/list_middle" 
+	        android:text="Undelivered Quantity"/>
+        <ImageView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dot_seperator"/>
+        <TextView
+	        android:id="@+id/tvReturnOrderQT"
+	        android:layout_width="wrap_content"
+	        android:layout_height="35dip"
+	        android:layout_gravity="center_vertical"
+	        android:gravity="center_vertical"
+	        android:textColor="@color/list_middle" 
+	        android:text="Return Order Quantity"/>
+    </LinearLayout>
+
+</LinearLayout>

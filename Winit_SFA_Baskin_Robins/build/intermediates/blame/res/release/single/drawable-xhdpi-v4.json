@@ -1,0 +1,762 @@
+[
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\popupsea.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\popupsea.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\inputblue.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\inputblue.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\common_signin_btn_icon_disabled_dark.9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_signin_btn_icon_disabled_dark.9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\common_signin_btn_icon_disabled_light.9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_signin_btn_icon_disabled_light.9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\check1_new.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\check1_new.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\empty.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\empty.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\routeperformance.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\routeperformance.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\small.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\small.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\common_signin_btn_icon_pressed_dark.9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_signin_btn_icon_pressed_dark.9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\tarbg2.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\tarbg2.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\bigcheck.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\bigcheck.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\survayimage.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\survayimage.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\completed_new.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\completed_new.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\app_logo.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\app_logo.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\a8.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\a8.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\outlets.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\outlets.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\return_order.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\return_order.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\add.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\add.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\tarbg1.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\tarbg1.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\scan.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\scan.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\common_signin_btn_text_pressed_dark.9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_signin_btn_text_pressed_dark.9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\check2.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\check2.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\searchicon.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\searchicon.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\confirm.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\confirm.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\freeezlist3.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\freeezlist3.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\cheque.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\cheque.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\check.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\check.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\sidebg.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\sidebg.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\icon2.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\icon2.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\done_btn.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\done_btn.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\topnav.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\topnav.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\list_icon_new.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\list_icon_new.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\topbg.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\topbg.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\empty_jar.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\empty_jar.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\creditlimit_bg.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\creditlimit_bg.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\basefooter.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\basefooter.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\empty_btn.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\empty_btn.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\progress_bg.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\progress_bg.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\vline.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\vline.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\blue_bg.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\blue_bg.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\makepayment.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\makepayment.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\empty_hv.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\empty_hv.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\input_red.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\input_red.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\common_signin_btn_icon_normal_dark.9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_signin_btn_icon_normal_dark.9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\dwn_arrow.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\dwn_arrow.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\a7.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\a7.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\a13.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\a13.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\taks_order.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\taks_order.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\logout.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\logout.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\common_signin_btn_text_pressed_light.9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_signin_btn_text_pressed_light.9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\input.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\input.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_plusone_medium_off_client.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\common_signin_btn_text_disabled_light.9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_signin_btn_text_disabled_light.9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\topsaparetor.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\topsaparetor.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\sep_new.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\sep_new.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\a4.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\a4.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\close_cradit.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\close_cradit.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\visible.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\visible.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\a12.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\a12.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\scan_icon.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\scan_icon.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\moderntrade.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\moderntrade.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\bills.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\bills.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\freeezlist2.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\freeezlist2.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\invoice_icon_new.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\invoice_icon_new.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\globe.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\globe.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\issue_icon.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\issue_icon.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\a5.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\a5.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\arrow.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\arrow.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\cal2.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\cal2.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\list_icon.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\list_icon.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\effective_coverage.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\effective_coverage.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\empty_btn_h.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\empty_btn_h.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rbtn1.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\rbtn1.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\cash.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\cash.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\scan_bottom.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\scan_bottom.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\common_signin_btn_icon_focus_light.9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_signin_btn_icon_focus_light.9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\sapare.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\sapare.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loginlogo.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\loginlogo.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\common_signin_btn_text_disabled_dark.9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_signin_btn_text_disabled_dark.9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\location.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\location.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\common_signin_btn_icon_pressed_light.9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_signin_btn_icon_pressed_light.9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\b1.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\b1.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\tarbg3.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\tarbg3.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\monthperfoemance.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\monthperfoemance.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\tdb_bg.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\tdb_bg.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\outstandingpayment_bg.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\outstandingpayment_bg.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\list_icon_h.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\list_icon_h.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rupee.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\rupee.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\btn_bg.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\btn_bg.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\collection_order.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\collection_order.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\monthlysales_bg.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\monthlysales_bg.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\popupbg_cradit.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\popupbg_cradit.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\calls.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\calls.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\count_bg.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\count_bg.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_plusone_small_off_client.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\new_order.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\new_order.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\order_order.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\order_order.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_menu.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\ic_menu.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\discount.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\discount.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\common_signin_btn_icon_normal_light.9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_signin_btn_icon_normal_light.9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\pop.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\pop.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loginlogo_admin.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\loginlogo_admin.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\icon4.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\icon4.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\check2_new.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\check2_new.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\loginbg2.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\loginbg2.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\icon1.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\icon1.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\input_line.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\input_line.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rounded_bg_box.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\rounded_bg_box.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\availablelimit_bg.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\availablelimit_bg.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\btn_bg_h.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\btn_bg_h.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\top_popup_new.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\top_popup_new.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\common_signin_btn_icon_focus_dark.9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_signin_btn_icon_focus_dark.9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\smallbg.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\smallbg.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\common_signin_btn_icon_disabled_focus_dark.9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_signin_btn_icon_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\common_signin_btn_icon_disabled_focus_light.9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_signin_btn_icon_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\tabs_pattern_diagonal.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\tabs_pattern_diagonal.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\bludividor.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\bludividor.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\a1.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\a1.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\cec.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\cec.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\sp.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\sp.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\dot_seperator.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\dot_seperator.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\print_order.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\print_order.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\pin2.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\pin2.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\address.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\address.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\sig.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\sig.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\back.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\back.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\salce.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\salce.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\a2.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\a2.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\popsearch.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\popsearch.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\modifyorder.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\modifyorder.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\arro.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\arro.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\topsearch.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\topsearch.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\arrow_2.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\arrow_2.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\smallbdr.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\smallbdr.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\arrow_list.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\arrow_list.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\edit_new.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\edit_new.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\previewlogo.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\previewlogo.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\checked.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\checked.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\progress_target.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\progress_target.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\common_signin_btn_text_disabled_focus_light.9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_signin_btn_text_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\login.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\login.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\icon5.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\icon5.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\receipt_icon.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\receipt_icon.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\sep_base.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\sep_base.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\common_signin_btn_text_focus_dark.9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_signin_btn_text_focus_dark.9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\delete.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\delete.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\powered_by_google_light.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\powered_by_google_light.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\freeezlist1.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\freeezlist1.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\common_signin_btn_text_focus_light.9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_signin_btn_text_focus_light.9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\a10.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\a10.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\popupsp.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\popupsp.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\globe_h.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\globe_h.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\unchecked.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\unchecked.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\bask.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\bask.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\common_signin_btn_text_disabled_focus_dark.9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_signin_btn_text_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\emptyb.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\emptyb.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\clock.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\clock.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\bg4.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\bg4.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\print.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\print.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\pin.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\pin.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\date_summary.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\date_summary.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\a11.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\a11.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\mianbg.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\mianbg.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\arriow.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\arriow.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\icon3.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\icon3.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\inputnewaset.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\inputnewaset.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\check5.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\check5.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\common_signin_btn_text_normal_dark.9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_signin_btn_text_normal_dark.9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\login_h.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\login_h.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\powered_by_google_dark.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\powered_by_google_dark.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\common_signin_btn_text_normal_light.9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_signin_btn_text_normal_light.9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\toplogo2.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\toplogo2.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\lite.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\lite.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\a9.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\a9.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\map.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\map.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_nav_back.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\ic_nav_back.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\a3.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\a3.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\bdr.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\bdr.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\exploded-aar\\BaskinStudio_VAT\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\a6.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\a6.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\hline.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\hline.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\empty_h.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\empty_h.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\saparetir.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\saparetir.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\done_btn_h.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\done_btn_h.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\dada.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\dada.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rbtn2.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\rbtn2.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\tar.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\tar.png"
+    },
+    {
+        "merged": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\progress_achived.png",
+        "source": "D:\\Baskin 20-03-2018\\BaskinStudio_VAT\\Winit_SFA_Baskin_Robins\\res\\drawable-xhdpi\\progress_achived.png"
+    }
+]

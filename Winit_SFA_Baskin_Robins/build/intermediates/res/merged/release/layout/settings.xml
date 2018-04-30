@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/topbg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="3dip" >
+
+        <TextView
+            android:id="@+id/tvSettings"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="7dip"
+            android:text="Settings"
+            android:textColor="@color/white"
+            android:textSize="@dimen/customer_text_size" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvUploadUnpostedData"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/btn_bg_h"
+            android:gravity="center"
+            android:padding="8dip"
+            android:text="Upload Data"
+            android:textColor="@color/white"
+            android:textSize="14dip" />
+
+        <TextView
+            android:id="@+id/tvSyncData"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/btn_bg_h"
+            android:gravity="center"
+            android:padding="8dip"
+            android:text="Sync Data"
+            android:textColor="@color/white"
+            android:textSize="14dip" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvChangePassword"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/list_item_selected"
+        android:drawableRight="@drawable/arro"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:text="Change Password"
+        android:textColor="@color/list_title"
+        android:textSize="16dip" />
+
+    <TextView
+        android:id="@+id/tvSplashScreenTheme"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/list_item_selected"
+        android:drawableRight="@drawable/arro"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:text="Change Splash Screen Theme"
+        android:textColor="@color/list_title"
+        android:textSize="16dip"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvUploadData"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/list_item_selected"
+        android:drawableRight="@drawable/arro"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:text="Upload debug logs"
+        android:textColor="@color/list_title"
+        android:textSize="16dip" />
+    <TextView
+        android:id="@+id/tvUpLogs"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/list_item_selected"
+        android:drawableRight="@drawable/arro"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:text="Upload Delivery logs"
+        android:textColor="@color/list_title"
+        android:textSize="16dip" />
+    <TextView
+        android:id="@+id/tvVanstockLogs"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/list_item_selected"
+        android:drawableRight="@drawable/arro"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:text="Upload VanStock logs"
+        android:textColor="@color/list_title"
+        android:textSize="16dip" />
+
+    <TextView
+        android:id="@+id/tvUpdateJourneyPlan"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/list_item_selected"
+        android:drawableRight="@drawable/arro"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:text="Update Journey Plan"
+        android:textColor="@color/list_title"
+        android:textSize="16dip"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvServiceSyncTimeLog"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/list_item_selected"
+        android:drawableRight="@drawable/arro"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:text="Services Sync Time Log"
+        android:textColor="@color/list_title"
+        android:textSize="16dip"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvSequence"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/list_item_selected"
+        android:drawableRight="@drawable/arro"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:text="Sync Sequence Numbers"
+        android:textColor="@color/list_title"
+        android:textSize="16dip" />
+
+    <TextView
+        android:id="@+id/tvUploadSQLite"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/list_item_selected"
+        android:drawableRight="@drawable/arro"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:text="@string/upload_sqlite_file_for_debug"
+        android:textColor="@color/list_title"
+        android:visibility="gone"
+        android:textSize="16dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:hint="Select URL"
+            android:singleLine="true"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/ash_gry"
+            android:textSize="14dip" />
+
+        <TextView
+            android:id="@+id/tvURL"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:background="@drawable/spinner_disabled_holo_light"
+            android:gravity="center_vertical"
+            android:hint="Select URL"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:textColor="@color/ash_gry"
+            android:textColorHint="@color/ash_gry"
+            android:textSize="14dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:paddingBottom="10dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dip"
+            android:text="Version Number :"
+            android:textColor="@color/list_title"
+            android:textSize="10dip" />
+
+        <TextView
+            android:id="@+id/tvSettingVersionNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dip"
+            android:text="@string/version_No"
+            android:textColor="@color/list_title"
+            android:textSize="10dip" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:paddingRight="5dip"
+            android:text="Developed by"
+            android:textColor="@color/list_title"
+            android:textSize="10dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingRight="5dip"
+            android:text="WINIT"
+            android:textColor="@color/list_title"
+            android:textSize="10dip" />
+    </LinearLayout>
+
+</LinearLayout>

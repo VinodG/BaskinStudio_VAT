@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="7dip"
+        android:layout_marginRight="7dip"
+        android:background="@drawable/popupbg_cradit"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/ivCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/close_cradit" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_poptitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Customer Credit limit is \nexceeded. Please select the \nbelow option."
+                android:textColor="#0C78B6"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip" >
+
+            <Button
+                android:id="@+id/btn_ModifyOrder"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_weight="1"
+                android:background="@drawable/btn_empty_click"
+                android:text="Modify"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_MakePayment"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginLeft="10dip"
+                android:layout_weight="1"
+                android:background="@drawable/btn_empty_click"
+                android:text="Payment"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_MakePayOrder"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginLeft="10dip"
+                android:layout_weight="1"
+                android:background="@drawable/btn_empty_click"
+                android:text="Pay Cash"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_OrderOnHold"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginLeft="10dip"
+                android:layout_weight="1"
+                android:background="@drawable/btn_empty_click"
+                android:text="Order on Hold"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_Continue"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginLeft="10dip"
+                android:layout_weight="1"
+                android:background="@drawable/btn_empty_click"
+                android:text="Continue"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

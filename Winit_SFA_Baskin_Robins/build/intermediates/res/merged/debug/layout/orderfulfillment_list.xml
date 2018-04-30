@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".6"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvShopName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mina Market"
+            android:textColor="#0A2A22"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tvShopId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="242424"
+            android:textColor="#696969"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    
+    <TextView
+        android:id="@+id/tvAmount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".2"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:text="298.00"
+        android:textColor="#0A2A22"
+        android:textSize="12dp" />
+    <TextView
+        android:id="@+id/tvPayment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".2"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:text="Y"
+        android:textColor="#0A2A22"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tvPrint"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".2"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:text="Y"
+        android:textColor="#0A2A22"
+        android:textSize="12dp" />
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dip"
+    android:layout_height="150dip"
+    android:paddingTop="5dip"
+    android:background="@drawable/popup"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llByHousehold"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tvSortByHousehold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="Household"
+            android:textColor="@color/list_title"
+            android:textSize="18dip" />
+    </LinearLayout>
+    
+         <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/dot_seperator" />
+
+    <LinearLayout
+        android:id="@+id/llByCorporate"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tvSortByCorporate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="Corporate"
+            android:textColor="@color/list_title"
+            android:textSize="18dip" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/dot_seperator" />
+
+    <LinearLayout
+        android:id="@+id/llByAll"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tvSortByAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="All"
+            android:textColor="@color/list_title"
+            android:textSize="18dip" />
+    </LinearLayout>
+
+</LinearLayout>

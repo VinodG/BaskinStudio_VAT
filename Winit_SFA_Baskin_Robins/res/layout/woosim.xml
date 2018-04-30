@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg4"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbgbg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvPrintHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:text="Print"
+            android:textColor="@color/white"
+            android:textSize="@dimen/customer_text_size"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <CheckBox
+                android:id="@+id/che_protocol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_open"
+                android:layout_width="170px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CONNECTION" />
+
+            <Button
+                android:id="@+id/btn_close"
+                android:layout_width="170px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="DISCONNECTION" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_print2inch"
+                android:layout_width="170px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PRINT 2INCH" />
+
+            <Button
+                android:id="@+id/btn_print3inch"
+                android:layout_width="170px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PRINT 3INCH" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_msr23"
+                android:layout_width="170px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="MSR 23 TRACK" />
+
+            <Button
+                android:id="@+id/btn_msr123"
+                android:layout_width="170px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="MSR 123 TRACK" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_cardcancel"
+                android:layout_width="170px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="MSR CANCEL" />
+
+            <Button
+                android:id="@+id/btn_finish"
+                android:layout_width="170px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="FINISH" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_printimg1"
+                android:layout_width="170px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PRINT IMG" />
+
+            <Button
+                android:id="@+id/btn_printimg2"
+                android:layout_width="170px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PRINT IMG" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/edit1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="1Track" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/edit2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="2Track" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/edit3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="3Track" />
+        </LinearLayout>
+    </LinearLayout>
+    
+<LinearLayout
+        android:id="@+id/llNxt"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center" >
+
+    <Button
+            android:id="@+id/btnReprint"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingRight="1dip"
+            android:text="Reprint"
+            android:textSize="18dip"
+            android:textColor="@color/list_title" />
+        <Button
+            android:id="@+id/btnFinishPrint"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingRight="1dip"
+            android:textSize="18dip"
+            android:text="Finish"
+            android:textColor="@color/list_title" />
+    </LinearLayout>
+</LinearLayout>

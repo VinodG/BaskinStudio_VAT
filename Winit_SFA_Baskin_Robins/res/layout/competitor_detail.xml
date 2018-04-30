@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg4"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="41dip"
+        android:background="@drawable/topbg"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:text="Add a Competitor Activity"
+        android:textColor="@color/white"
+        android:textSize="18dip"
+        android:textStyle="bold" >
+    </TextView>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0dip"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="8dip"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tvBrand"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Brand"
+                    android:textColor="@color/list_title"
+                    android:textSize="15dip"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tvBrandVal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_disabled_holo_light"
+                    android:gravity="center_vertical"
+                    android:hint="Select Brand"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:singleLine="true"
+                    android:textColor="@color/list_title"
+                    android:textSize="15dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="8dip"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tvCategory"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Category"
+                    android:textColor="@color/list_title"
+                    android:textSize="15dip"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tvCategoryVal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_disabled_holo_light"
+                    android:gravity="center_vertical"
+                    android:hint="Select Category"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:singleLine="true"
+                    android:textColor="@color/list_title"
+                    android:textSize="15dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tvPrice"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Price"
+                    android:textColor="@color/list_title"
+                    android:textSize="15dip"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/etPriceVal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/input_new"
+                    android:gravity="center_vertical"
+                    android:hint="Enter Price"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="5dip"
+                    android:singleLine="true"
+                    android:textColor="@color/list_title"
+                    android:textSize="15dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="8dip"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tvCurrency"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Currency"
+                    android:textColor="@color/list_title"
+                    android:textSize="15dip"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tvCurrencyVal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_disabled_holo_light"
+                    android:gravity="center_vertical"
+                    android:hint="Select Currency"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:singleLine="true"
+                    android:textColor="@color/list_title"
+                    android:textSize="15dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tvDescription"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Description"
+                    android:textColor="@color/list_title"
+                    android:textSize="15dip"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/etDescriptionVal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/input_new"
+                    android:gravity="center_vertical"
+                    android:hint="Enter Description"
+                    android:imeOptions="actionDone"
+                    android:paddingLeft="5dip"
+                    android:singleLine="true"
+                    android:textColor="@color/list_title"
+                    android:textSize="15dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/basefooter"
+        android:gravity="right" >
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/icon3"
+            android:drawablePadding="3dip"
+            android:drawableRight="@drawable/mappinline"
+            android:paddingRight="10dip"
+            android:text="@string/cancel"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnSyncData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/check5"
+            android:drawablePadding="3dip"
+            android:drawableRight="@drawable/mappinline"
+            android:paddingRight="10dip"
+            android:text="Sync Data"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+           android:background="@color/transparent"
+            android:drawableLeft="@drawable/check5"
+            android:drawablePadding="3dip"
+            android:paddingRight="10dip"
+            android:text="@string/Submit"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

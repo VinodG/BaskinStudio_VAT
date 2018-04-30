@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvListViewHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbgbg"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dip"
+        android:singleLine="true"
+        android:text="Upload Status"
+        android:textColor="@color/white"
+        android:textSize="@dimen/customer_text_size" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:background="@drawable/smallbg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvSelectType"
+            android:layout_width="fill_parent"
+            android:layout_height="35dip"
+            android:layout_weight="1"
+            android:background="@drawable/smallbg"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:text="Select Type"
+            android:textColor="@color/white"
+            android:textSize="16dip" />
+
+        <TextView
+            android:id="@+id/tvTypeValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/input_line"
+            android:gravity="center_vertical"
+            android:hint="Select Type"
+            android:paddingLeft="5dip"
+            android:paddingRight="30dip"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTitleView"
+        android:layout_width="fill_parent"
+        android:layout_height="25dip"
+        android:background="@drawable/topbgbg"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/tvOrderId"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:text="UnUploaded Data"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:background="@color/ashColor" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Status"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvMiddle"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:cacheColorHint="@null"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/tvNoRecorFound"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="No record available."
+        android:textColor="@color/List_header2"
+        android:textSize="18dip"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/basefooter"
+        android:gravity="right" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_base" />
+
+        <Button
+            android:id="@+id/btnStockUnload"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/upload_orders"
+            android:drawablePadding="5dip"
+            android:text=" Upload "
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

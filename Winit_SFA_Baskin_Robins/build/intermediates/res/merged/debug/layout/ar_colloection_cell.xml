@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/ivCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/check_normal" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="10dip" >
+
+            <TextView
+                android:id="@+id/tvHeaderText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="MMBR006"
+                android:textColor="@color/list_middle"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="Journey_date"
+                android:textColor="@color/header_color"
+                android:textSize="11dip" />
+
+            <TextView
+                android:id="@+id/tvInvType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="Journey_date"
+                android:textColor="@color/header_color"
+                android:textSize="11dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="2dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingRight="3dip" >
+
+            <TextView
+                android:id="@+id/tvInvoiceAmt"
+                android:layout_width="90dip"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="10dip"
+                android:singleLine="true"
+                android:textColor="@color/list_middle"
+                android:textSize="13dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvAmount"
+                android:layout_width="70dip"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="10dip"
+                android:singleLine="true"
+                android:textColor="@color/list_middle"
+                android:textSize="13dip"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="70dip"
+                android:layout_height="fill_parent" >
+
+                <EditText
+                    android:id="@+id/etEnterAmount"
+                    android:layout_width="70dip"
+                    android:layout_height="fill_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/unit_bg"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:gravity="center_vertical|right"
+                    android:hint="0"
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal"
+                    android:maxLength="10"
+                    android:paddingRight="10dip"
+                    android:textColor="@color/list_time"
+                    android:textSize="13dip" />
+
+                <ImageView
+                    android:id="@+id/ivDelete"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_weight="0"
+                    android:padding="7dip"
+                    android:src="@drawable/delete"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvDueDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="Due_Date"
+                android:textColor="@color/header_color"
+                android:textSize="11dip"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/arro"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvSettings"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbgbg"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:text="Select Theme"
+        android:textColor="@color/white"
+        android:textSize="@dimen/customer_text_size" >
+    </TextView>
+
+    <HorizontalScrollView
+        android:id="@+id/hsvDots"
+        android:layout_width="fill_parent"
+        android:layout_height="25dip"
+        android:layout_gravity="center"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/llDots"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <com.winit.baskinrobbin.salesman.common.CustomGallery
+        android:id="@+id/gvTheme"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </com.winit.baskinrobbin.salesman.common.CustomGallery>
+
+</LinearLayout>

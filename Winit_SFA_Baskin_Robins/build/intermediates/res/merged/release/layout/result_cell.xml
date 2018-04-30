@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40dip"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="2dip"
+        android:layout_marginRight="2dip"
+        android:layout_marginTop="5dip"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/cbList1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:src="@drawable/check_normal" />
+
+            <TextView
+                android:id="@+id/tvItemCode"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="9dip"
+                android:layout_weight="1.6"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="@string/Item_Code"
+                android:textColor="@color/white"
+                android:textSize="12dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvItemDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="9dip"
+                android:layout_marginRight="3dip"
+                android:layout_weight=".75"
+                android:gravity="center_vertical"
+                android:text="@string/Item_Description"
+                android:textColor="@color/white"
+                android:textSize="12dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvUOM"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="9dip"
+                android:layout_marginRight="3dip"
+                android:layout_weight="1.5"
+                android:background="@drawable/input_new"
+                android:drawableRight="@drawable/arrow_2"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="@string/Item_Description"
+                android:textColor="@color/white"
+                android:textSize="12dip"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llReasion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_selected"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dip" >
+            <LinearLayout
+                android:id="@+id/llReturn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="10dip" >
+
+                <ImageView
+                    android:id="@+id/ivReturn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rbtn2" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:text="Good Condition"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="12dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llReturnReason1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="10dip" >
+
+                <ImageView
+                    android:id="@+id/ivReturnReason1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rbtn2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/ReturnReason1"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="12dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llBottom"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip" >
+
+                <LinearLayout
+                    android:id="@+id/llReturnReason3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:padding="10dip" >
+
+                    <ImageView
+                        android:id="@+id/ivReturnReason3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rbtn2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="@string/ReturnReason3"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="12dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llReturnReason2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="10dip" >
+
+            <ImageView
+                android:id="@+id/ivReturnReason2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rbtn2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:text="@string/ReturnReason2"
+                android:textColor="@color/dark_grey"
+                android:textSize="12dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llGoodCondition"
+            android:layout_width="fill_parent"
+            android:layout_height="38dip"
+            android:layout_marginRight="10dip"
+            android:visibility="visible" >
+
+            <LinearLayout
+                android:id="@+id/llLotNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:text="Lot No.:"
+                    android:textColor="@color/dark_grey" />
+
+                <EditText
+                    android:id="@+id/etLotNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginLeft="5dip"
+                    android:background="@drawable/input_new"
+                    android:imeOptions="actionDone"
+                    android:padding="5dip"
+                    android:textColor="@color/black"
+                    android:textSize="13dip" 
+                    android:inputType="number"
+                    android:maxLength="5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llExpiryDate"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tvExpiryDate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:background="@drawable/spinner_disabled_holo_light"
+                    android:hint="Expiry Date"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:textColor="@color/black"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llCaptureImage"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="gone" >
+
+                <Button
+                    android:id="@+id/btnCaptureImages"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Capture Images" />
+            </LinearLayout>
+        </LinearLayout>
+         <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:text="Remark"
+                    android:textColor="@color/dark_grey" />
+
+                <EditText
+                    android:id="@+id/etRemark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginLeft="5dip"
+                    android:background="@drawable/input_new"
+                    android:imeOptions="actionDone"
+                    android:padding="5dip"
+                    android:textColor="@color/black"
+                    android:textSize="13dip" />
+            </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_margin="2dip"
+        android:background="@drawable/dot_seperator" />
+
+</LinearLayout>

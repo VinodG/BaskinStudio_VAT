@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ivScanCode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dip"
+                android:src="@drawable/scan1" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip" >
+
+                <TextView
+                    android:id="@+id/tvTypeBold"
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Asset_Type"
+                    android:textColor="@color/list_title"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Freezer"
+                    android:textColor="@color/list_title" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:id="@+id/tvLocationBold"
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Asset_Location"
+                    android:textColor="@color/list_title"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Cashier"
+                    android:textColor="@color/list_title" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:id="@+id/tvTimeBold"
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/msg_default_time"
+                    android:textColor="@color/list_title"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Cashier"
+                    android:textColor="@color/list_title" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:id="@+id/tvQuantityTitle"
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Quantity"
+                    android:textColor="@color/list_title"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etQuantity"
+                    android:layout_width="40dip"
+                    android:layout_height="30dip"
+                    android:layout_marginLeft="10dip"
+                    android:background="@drawable/unit_bg"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textColor="@color/list_title" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvComments"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dip"
+                android:text="Comments"
+                android:textColor="@color/list_title"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtAssetscanComments"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/input"
+                android:padding="10dip"
+                android:textColor="@color/list_title" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/basefooter"
+        android:gravity="right" >
+
+         <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_base" />
+        <Button
+            android:id="@+id/btnAssetscanSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent"
+            android:padding="10dp"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+         <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sep_base" />
+
+        <Button
+            android:id="@+id/btnAssetscanCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:padding="10dp"
+            android:background="@color/transparent"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mianbg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="10dip" >
+
+            <LinearLayout
+                android:id="@+id/llLoginBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/loginlogo"
+                android:gravity="center_horizontal|bottom"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/etUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/inputblue"
+                    android:hint="Admin code"
+                    android:imeOptions="actionNext"
+                    android:paddingLeft="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/blue"
+                    android:textColorHint="@color/ash_gry"
+                    android:textSize="14dip" />
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/inputblue"
+                    android:hint="@string/Password_hint"
+                    android:imeActionLabel="Login"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:paddingLeft="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/blue"
+                    android:textColorHint="@color/ash_gry"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:id="@+id/tvURL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/inputblue"
+                    android:drawableRight="@drawable/arrow_2"
+                    android:gravity="bottom"
+                    android:hint="Select URL"
+                    android:paddingBottom="5dip"
+                    android:paddingLeft="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/blue"
+                    android:textColorHint="@color/ash_gry"
+                    android:textSize="14dip"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/rlRememberMe"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dip"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginTop="5dip"
+                    android:gravity="center"
+                    android:visibility="invisible" >
+
+                    <ImageView
+                        android:id="@+id/ivCheck_rememberMe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/unchecked"
+                        android:gravity="center_vertical"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/tvRemember"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dip"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:text=" Click Here for Admin Login"
+                        android:textColor="#636363"
+                        android:textSize="15dip" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvForgotPassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dip"
+                    android:layout_marginLeft="8dip"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:text="@string/forgot_password"
+                    android:textColor="@color/list_middle"
+                    android:textSize="15dip"
+                    android:visibility="gone" />
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dip"
+                    android:background="@drawable/login_btn_bg" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/salce" />
+
+            <TextView
+                android:id="@+id/tvCurrentversion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvCurrentDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

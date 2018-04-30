@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <View
+        android:id="@+id/sideView"
+        android:layout_width="5dip"
+        android:layout_height="60dip"
+        android:background="@color/customer_served"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvInOutTime"
+        android:layout_width="45dip"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dip"
+        android:background="#fff1eb"
+        android:gravity="center"
+        android:textColor="@color/list_time"
+        android:textSize="15dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical|left"
+        android:orientation="vertical"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/tvSiteName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:gravity="left"
+            android:maxLines="2"
+            android:text="sadsadasdasdasdasdasdasdasdasdasdasddddddddddddddddddddddddddddddddddddddddddddddddd"
+            android:textColor="@color/list_title" />
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:gravity="left"
+            android:maxLines="2"
+            android:text="sadsadasdasdasdasdasdasdasdasdasdasddddddddddddddddddddddddddddddddddddddddddddddddd"
+            android:textColor="@color/list_middle" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="65dip"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="Site Id "
+                android:textColor="@color/list_middle"
+                android:textSize="13dip" />
+
+            <TextView
+                android:layout_width="5dip"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textColor="@color/list_middle"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/tvSiteID"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="Site Id : "
+                android:textColor="@color/list_middle"
+                android:textSize="13dip" />
+
+            <TextView
+                android:layout_width="55dip"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="Type"
+                android:textColor="@color/list_middle"
+                android:textSize="13dip" />
+
+            <TextView
+                android:layout_width="5dip"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textColor="@color/list_middle"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/tvPaymentType"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/list_middle"
+                android:textSize="13dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llCredit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="65dip"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="Avail. Limit"
+                android:textColor="@color/list_middle"
+                android:textSize="13dip" />
+
+            <TextView
+                android:layout_width="5dip"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textColor="@color/list_middle"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/tvCreditLimit"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/list_middle"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/tvOverDue"
+                android:layout_width="55dip"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:text="Overdue"
+                android:textColor="@color/list_middle"
+                android:textSize="13dip" />
+
+            <TextView
+                android:layout_width="5dip"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textColor="@color/list_middle"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/tvDuePayment"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/list_middle"
+                android:textSize="13dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivArowRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dip"
+        android:src="@drawable/arro" />
+
+</LinearLayout>

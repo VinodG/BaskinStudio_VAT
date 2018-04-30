@@ -1,0 +1,177 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvShopName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="MIAMI STYLE MIN MART"
+        android:textColor="#0A2A22"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Order Preview"
+        android:textColor="#000000"
+        android:textSize="12dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/smallbg"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.53"
+            android:text="Item Code &amp; Item Name"
+            android:textColor="#ffffff"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:text="Cases"
+            android:textColor="#ffffff"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PCs"
+            android:textColor="#ffffff"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:text="Price"
+            android:textColor="#ffffff"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:text="Discount"
+            android:textColor="#ffffff"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:text="TotalPrice"
+            android:textColor="#ffffff"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvOrderDetails"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/smallbg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Total value :"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tvOrderAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs1600.00"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custmer Signature"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/ivCustmerSign"
+        android:layout_width="match_parent"
+        android:layout_height="50dip" />
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SalesMan Signature"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/ivSalesmanSign"
+        android:layout_width="match_parent"
+        android:layout_height="50dip" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/basefooter"
+        android:gravity="right"
+        android:orientation="horizontal" >
+        
+        
+        <TextView 
+            android:id="@+id/tvPrint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="print"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/print"
+            android:textStyle="bold"/>
+          <View 
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:background="#ffffff"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"/>
+        <TextView 
+            android:id="@+id/tvProceed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="proceed"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/check5"
+            android:textStyle="bold"/>
+        
+        
+    </LinearLayout>
+    
+</LinearLayout>

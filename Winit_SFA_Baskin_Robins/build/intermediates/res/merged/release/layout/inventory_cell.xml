@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cell_bg"
+        android:gravity="center_vertical"
+        android:paddingBottom="3dip"
+        android:paddingTop="2dip" >
+
+        <LinearLayout
+            android:id="@+id/llClickToDownLoad"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="10dip" >
+
+            <TextView
+                android:id="@+id/tvHeaderText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/list_title"
+                android:textSize="16dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/grey"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/tvInventory"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textColor="@color/blue_dark"
+                android:textSize="11dip"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/evCases"
+            android:layout_width="70dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:background="@drawable/unit_bg"
+            android:gravity="center"
+            android:hint="0"
+            android:nextFocusDown="@+id/etInvoice2"
+            android:paddingRight="5dip"
+            android:singleLine="true"
+            android:textColor="@color/list_title"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0" >
+
+            <TextView
+                android:id="@+id/tvUnits"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="2dip"
+                android:background="@drawable/unit_bg"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:hint="0"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:singleLine="true"
+                android:textColor="@color/list_title"
+                android:textSize="19dip"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="70dip"
+                android:layout_height="fill_parent" >
+
+                <EditText
+                    android:id="@+id/evUnits"
+                    android:layout_width="70dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/unit_bg"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:maxLength="5"
+                    android:singleLine="true"
+                    android:textColor="@color/list_title"
+                    android:textSize="19dip"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/ivDelete"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_weight="0"
+                    android:padding="4dip"
+                    android:src="@drawable/delete"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/minus"
+            android:inputType="number"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

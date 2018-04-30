@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/cell_bg"
+        android:gravity="center_vertical"
+        android:paddingBottom="3dip"
+        android:paddingTop="2dip" >
+
+        <LinearLayout
+            android:id="@+id/llClickToDownLoad"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="10dip" >
+
+            <TextView
+                android:id="@+id/tvItemCodeText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/list_title"
+                android:textSize="14dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/grey"
+                android:textSize="13dip" />
+            
+            <TextView
+                android:id="@+id/tvUnitPrecase"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/list_title"
+                android:textSize="10dip"
+                android:textStyle="bold" 
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvUOM"
+            android:layout_width="40dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:background="@drawable/unit_bg"
+            android:gravity="center"
+            android:hint="0"
+            android:maxLength="5"
+            android:singleLine="true"
+            android:text="UOM"
+            android:textColor="@color/list_title"
+            android:textSize="14dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTotalQty"
+            android:layout_width="59dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:background="@drawable/unit_bg"
+            android:gravity="center"
+            android:hint="0"
+            android:maxLength="7"
+            android:singleLine="true"
+            android:textColor="@color/list_title"
+            android:textSize="14dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDeliveredQty"
+            android:layout_width="61dip"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="2dip"
+            android:background="@drawable/unit_bg"
+            android:gravity="center"
+            android:hint="0"
+            android:maxLength="7"
+            android:singleLine="true"
+            android:textColor="@color/list_title"
+            android:textSize="14dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvAvailQty"
+            android:layout_width="60dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/unit_bg"
+            android:gravity="center"
+            android:hint="0"
+            android:maxLength="7"
+            android:singleLine="true"
+            android:textColor="@color/list_title"
+            android:textSize="14dip"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/ivCheckItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_weight="0"
+            android:src="@drawable/check_normal"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

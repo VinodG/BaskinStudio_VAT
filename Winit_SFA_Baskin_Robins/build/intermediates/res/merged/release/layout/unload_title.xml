@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+	<TextView
+        android:id="@+id/tvGroupHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:background="@drawable/smallbg"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dip"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="16dip"
+        android:text="UnUploaded Data" />
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="35dip"
+	    android:gravity="center"
+	    android:background="@drawable/back_small">
+	    <TextView
+	        android:id="@+id/tvOrderId"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:singleLine="true"
+	        android:textColor="@color/black"
+	        android:textSize="14dip"
+	        android:text="UnUploaded Data" 
+	        android:layout_weight="1"/>
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:background="@drawable/seperator"/>
+	     <TextView
+	        android:id="@+id/tvStatus"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:singleLine="true"
+	        android:textColor="@color/black"
+	        android:textSize="14dip"
+	        android:text="Status" 
+	        android:layout_weight="1"/>
+	</LinearLayout>
+	<LinearLayout 
+	    android:id="@+id/llChildView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+	</LinearLayout>
+</LinearLayout>

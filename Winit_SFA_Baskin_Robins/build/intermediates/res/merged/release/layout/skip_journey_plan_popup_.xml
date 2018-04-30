@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dip"
+    android:background="@drawable/round_transparent_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvHead"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:gravity="center"
+        android:text="@string/warning"
+        android:textColor="@color/list_title"
+        android:textSize="20dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMessages"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:gravity="center"
+        android:text="Do you want skip following customers-"
+        android:textColor="@color/list_title"
+        android:textSize="16dip"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="5dip"
+        android:layout_weight="1"
+        android:scrollbars="none" >
+
+        <TextView
+            android:id="@+id/tvCustomerList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Customers"
+            android:textColor="@color/list_title"
+            android:textSize="14dip"
+            android:textStyle="bold" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="5dip"
+        android:gravity="center" 
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip">
+
+        <Button
+            android:id="@+id/btnYesPopup"
+            android:layout_width="fill_parent"
+            android:layout_height="35dip"
+            android:background="@drawable/empty_rounded_button_click"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:text="@string/Yes"
+            android:textColor="@color/white"
+            android:textSize="16dip"
+            android:textStyle="bold" 
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnNoPopup"
+            android:layout_width="fill_parent"
+            android:layout_height="35dip"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/empty_rounded_button_click"
+            android:text="@string/No"
+            android:textColor="@color/white"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
